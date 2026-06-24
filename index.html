@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IncriMed вЂ” Р„РІСЂРѕРїРµР№СЃСЊРєС– РџРµРїС‚РёРґРё</title>
+  <title>IncriMed — Європейські Пептиди</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -37,16 +37,12 @@
       line-height: 1.6;
       overflow-x: hidden;
     }
-    h1, h2, h3, h4 {
-      font-family: 'DM Serif Display', serif;
-      letter-spacing: -0.02em;
-      font-weight: 400;
-    }
+    h1, h2, h3, h4 { font-family: 'DM Serif Display', serif; letter-spacing: -0.02em; font-weight: 400; }
     ::-webkit-scrollbar { width: 5px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
 
-    /* в”Ђв”Ђв”Ђ LAYOUT в”Ђв”Ђв”Ђ */
+    /* ─── LAYOUT ─── */
     .container {
       max-width: var(--container);
       margin: 0 auto;
@@ -54,7 +50,7 @@
     }
     .section { padding: 112px 0; }
 
-    /* в”Ђв”Ђв”Ђ LABELS в”Ђв”Ђв”Ђ */
+    /* ─── LABELS ─── */
     .label {
       display: inline-block;
       font-family: 'Inter', sans-serif;
@@ -79,7 +75,7 @@
       max-width: 500px;
     }
 
-    /* в”Ђв”Ђв”Ђ FADE UP в”Ђв”Ђв”Ђ */
+    /* ─── FADE UP ─── */
     .fu {
       opacity: 0;
       transform: translateY(30px);
@@ -91,7 +87,7 @@
     .fu.d3 { transition-delay: 0.24s; }
     .fu.d4 { transition-delay: 0.32s; }
 
-    /* в”Ђв”Ђв”Ђ BUTTONS в”Ђв”Ђв”Ђ */
+    /* ─── BUTTONS ─── */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -119,9 +115,9 @@
     .btn-ghost { background: transparent; color: rgba(255,255,255,0.82); border: 1.5px solid rgba(255,255,255,0.28); }
     .btn-ghost:hover { color: #fff; border-color: rgba(255,255,255,0.65); background: rgba(255,255,255,0.08); transform: translateY(-2px); }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        HEADER
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .header {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -228,9 +224,9 @@
       cursor: pointer; padding: 8px;
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
-       HERO вЂ” SPLIT LAYOUT
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    /* ════════════════════════════
+       HERO — SPLIT LAYOUT
+    ════════════════════════════ */
     .hero {
       min-height: 100vh;
       display: grid;
@@ -395,9 +391,9 @@
       100% { transform: translateY(-28px); opacity: 0.35; }
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        TRUST BAR
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .trust {
       background: rgba(255,255,255,0.55);
       border-top: 1px solid var(--border);
@@ -421,9 +417,9 @@
     .trust-title { font-family: 'DM Serif Display', serif; font-size: 16px; font-weight: 500; margin-bottom: 4px; }
     .trust-desc { font-size: 13px; color: var(--muted); font-weight: 300; }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        PRODUCTS
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .products-hd {
       display: flex;
       align-items: flex-end;
@@ -547,9 +543,9 @@
     }
     .btn-buy:hover { background: #A07070; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(185,137,137,0.35); }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        HOW IT WORKS
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .how { background: #F5EDED; }
     .how-grid {
       display: grid;
@@ -583,9 +579,9 @@
     .how-hr { height: 1px; background: var(--border); margin: 22px 0; transition: background 0.35s; }
     .how-d { font-size: 14.5px; color: #6B6B6B; font-weight: 300; line-height: 1.78; transition: color 0.35s; }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        CATEGORIES
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .cats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -639,9 +635,9 @@
     .cat-light .cat-arr { border-color: rgba(26,26,26,0.22); }
     .cat-light .cat-arr svg { stroke: var(--text); }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        TESTIMONIALS
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .testi { background: var(--bg); }
     .testi-hd { text-align: center; margin-bottom: 60px; }
     .testi-hd .section-sub { margin: 0 auto; }
@@ -680,9 +676,9 @@
     .author-name { font-weight: 500; font-size: 14px; margin-bottom: 2px; }
     .author-role { font-size: 12px; color: var(--muted); }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        FAQ
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .faq-sec { background: #F5EDED; }
     .faq-inner {
       display: grid;
@@ -733,9 +729,9 @@
       line-height: 1.82;
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        CTA
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .cta-sec {
       background: #4A2E2E;
       padding: 112px 0;
@@ -757,15 +753,15 @@
     .cta-sub { font-size: 17px; color: rgba(255,255,255,0.5); font-weight: 300; max-width: 490px; margin: 0 auto 44px; line-height: 1.78; }
     .cta-btns { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
-       FOOTER вЂ” full width like header
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    /* ════════════════════════════
+       FOOTER — full width like header
+    ════════════════════════════ */
     .footer {
       background: #2A1A1A;
       padding: 72px clamp(24px, 5vw, 80px) 36px;
     }
     .footer-inner {
-      /* full-width like header вЂ” no container constraint */
+      /* full-width like header — no container constraint */
     }
     .footer-grid {
       display: grid;
@@ -831,9 +827,9 @@
     .foot-legal a { font-size: 13px; color: rgba(255,255,255,0.28); text-decoration: none; font-weight: 300; transition: color 0.28s; }
     .foot-legal a:hover { color: rgba(255,255,255,0.58); }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        CALL BUTTON (floating)
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .call-btn {
       position: fixed;
       bottom: 28px;
@@ -867,9 +863,9 @@
       100% { opacity: 0; }
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        RESPONSIVE
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     @media (max-width: 1280px) {
       :root { --gutter: 44px; }
       .products-grid { grid-template-columns: repeat(2, 1fr); }
@@ -937,9 +933,9 @@
       .foot-legal { flex-direction: column; gap: 10px; }
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        CART
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .cart-icon-btn {
       position: relative;
       background: none;
@@ -1128,16 +1124,16 @@
     .cart-continue-btn:hover { color: var(--accent2); }
     @media (max-width: 480px) { .cart-drawer { max-width: 100%; } }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        HIDE CALL BTN ON DESKTOP
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     @media (min-width: 1025px) {
       .call-btn { display: none; }
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        320px BREAKPOINT
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     @media (max-width: 375px) {
       :root { --gutter: 16px; }
       .header-cta .btn { display: none; }
@@ -1178,9 +1174,9 @@
       .footer { padding: 48px 16px 24px; }
     }
 
-    /* в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+    /* ════════════════════════════
        PRODUCT PAGE OVERLAY
-    в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ */
+    ════════════════════════════ */
     .prod-overlay {
       position: fixed;
       inset: 0;
@@ -1239,7 +1235,7 @@
       padding: 48px clamp(20px, 5vw, 80px) 100px;
     }
 
-    /* в”Ђв”Ђ Main 2-col grid в”Ђв”Ђ */
+    /* ── Main 2-col grid ── */
     .prod-grid {
       display: grid;
       grid-template-columns: 46fr 54fr;
@@ -1540,7 +1536,7 @@
     .prod-trust-it:last-child { border-right: none; }
     .prod-trust-it svg { width: 18px; height: 18px; stroke: var(--accent2); stroke-width: 1.5; fill: none; }
 
-    /* в”Ђв”Ђ Sections below в”Ђв”Ђ */
+    /* ── Sections below ── */
     .prod-section {
       padding-top: 60px;
       margin-top: 60px;
@@ -1716,32 +1712,32 @@
 </head>
 <body>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      FLOATING CALL BUTTON
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
-<a href="tel:+380000000000" class="call-btn" aria-label="Р—Р°С‚РµР»РµС„РѕРЅСѓРІР°С‚Рё">
+════════════════════════════ -->
+<a href="tel:+380000000000" class="call-btn" aria-label="Зателефонувати">
   <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.91.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
   </svg>
 </a>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      HEADER
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <header class="header" id="header">
   <div class="header-inner">
     <a href="#" class="logo">
       <img src="logo.png" alt="IncriMed European Peptides" />
     </a>
     <nav>
-      <a href="#hero">Р“РѕР»РѕРІРЅР°</a>
-      <a href="#products">РџСЂРѕРґСѓРєС‚Рё</a>
-      <a href="#how">РџРµСЂРµРІР°РіРё</a>
-      <a href="#faq">РџРёС‚Р°РЅРЅСЏ</a>
-      <a href="#footer">РљРѕРЅС‚Р°РєС‚Рё</a>
+      <a href="#hero">Головна</a>
+      <a href="#products">Продукти</a>
+      <a href="#how">Переваги</a>
+      <a href="#faq">Питання</a>
+      <a href="#footer">Контакти</a>
     </nav>
     <div class="header-cta">
-      <button class="cart-icon-btn" id="cartIconBtn" aria-label="РљРѕС€РёРє">
+      <button class="cart-icon-btn" id="cartIconBtn" aria-label="Кошик">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
           <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
           <line x1="3" y1="6" x2="21" y2="6"/>
@@ -1749,8 +1745,8 @@
         </svg>
         <span class="cart-count" id="cartCount">0</span>
       </button>
-      <a href="#products" class="btn btn-accent" style="padding:11px 22px;font-size:13px;">РљСѓРїРёС‚Рё Р·Р°СЂР°Р·</a>
-      <button class="burger" id="burgerBtn" aria-label="РњРµРЅСЋ">
+      <a href="#products" class="btn btn-accent" style="padding:11px 22px;font-size:13px;">Купити зараз</a>
+      <button class="burger" id="burgerBtn" aria-label="Меню">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -1759,71 +1755,71 @@
 
 <!-- Mobile Nav -->
 <div class="mob-nav" id="mobNav">
-  <button class="mob-close" id="navClose" aria-label="Р—Р°РєСЂРёС‚Рё">
+  <button class="mob-close" id="navClose" aria-label="Закрити">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="1.5">
       <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
     </svg>
   </button>
-  <a href="#hero" class="mob-lnk">Р“РѕР»РѕРІРЅР°</a>
-  <a href="#products" class="mob-lnk">РџСЂРѕРґСѓРєС‚Рё</a>
-  <a href="#how" class="mob-lnk">РџРµСЂРµРІР°РіРё</a>
-  <a href="#faq" class="mob-lnk">РџРёС‚Р°РЅРЅСЏ</a>
-  <a href="#footer" class="mob-lnk">РљРѕРЅС‚Р°РєС‚Рё</a>
-  <a href="#products" class="btn btn-accent" style="margin-top:8px;">РљСѓРїРёС‚Рё Р·Р°СЂР°Р·</a>
+  <a href="#hero" class="mob-lnk">Головна</a>
+  <a href="#products" class="mob-lnk">Продукти</a>
+  <a href="#how" class="mob-lnk">Переваги</a>
+  <a href="#faq" class="mob-lnk">Питання</a>
+  <a href="#footer" class="mob-lnk">Контакти</a>
+  <a href="#products" class="btn btn-accent" style="margin-top:8px;">Купити зараз</a>
   <button class="btn btn-outline" style="margin-top:4px;" onclick="document.getElementById('mobNav').classList.remove('open');document.body.style.overflow='';openCart();">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
       <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
       <line x1="3" y1="6" x2="21" y2="6"/>
       <path d="M16 10a4 4 0 01-8 0"/>
     </svg>
-    РљРѕС€РёРє
+    Кошик
   </button>
 </div>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      HERO
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="hero" id="hero">
 
-  <!-- LEFT PANEL вЂ” content -->
+  <!-- LEFT PANEL — content -->
   <div class="hero-left fu">
     <div class="hero-eyeline">
       <span class="hero-eyeline-line"></span>
       <span class="hero-eyeline-dot"></span>
-      Р„РІСЂРѕРїРµР№СЃСЊРєР° СЏРєС–СЃС‚СЊ
+      Європейська якість
     </div>
     <h1 class="hero-title">
-      РџРµСЂРµРґРѕРІР°<br>РџРµРїС‚РёРґРЅР°<br>РўРµСЂР°РїС–СЏ РґР»СЏ<br><em>Р”РѕРІРіРѕР»С–С‚С‚СЏ</em>
+      Передова<br>Пептидна<br>Терапія для<br><em>Довголіття</em>
     </h1>
     <p class="hero-sub">
-      РџСЂРµРјС–Р°Р»СЊРЅС– РїРµРїС‚РёРґРё GMP-РєР»Р°СЃСѓ РґР»СЏ РІС–РґРЅРѕРІР»РµРЅРЅСЏ,<br>Р·РґРѕСЂРѕРІ'СЏ С‚Р° СЃРїРѕРІС–Р»СЊРЅРµРЅРЅСЏ СЃС‚Р°СЂС–РЅРЅСЏ.
+      Преміальні пептиди GMP-класу для відновлення,<br>здоров'я та сповільнення старіння.
     </p>
     <div class="hero-btns">
       <a href="#products" class="btn btn-primary">
-        РџРµСЂРµРіР»СЏРЅСѓС‚Рё РєР°С‚Р°Р»РѕРі
+        Переглянути каталог
         <svg width="14" height="14" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7.5h9M9 3.5l4 4-4 4" stroke-linecap="round"/></svg>
       </a>
-      <a href="#how" class="btn btn-outline">РЇРє С†Рµ РїСЂР°С†СЋС”</a>
+      <a href="#how" class="btn btn-outline">Як це працює</a>
     </div>
     <div class="hero-stats">
       <div class="hero-stat">
         <span class="stat-num">12+</span>
-        <span class="stat-lbl">Р РѕРєС–РІ РґРѕСЃР»С–РґР¶РµРЅСЊ</span>
+        <span class="stat-lbl">Років досліджень</span>
       </div>
       <div class="hero-stat">
         <span class="stat-num">98%</span>
-        <span class="stat-lbl">Р§РёСЃС‚РѕС‚Р° СЃРєР»Р°РґСѓ</span>
+        <span class="stat-lbl">Чистота складу</span>
       </div>
       <div class="hero-stat">
         <span class="stat-num">40+</span>
-        <span class="stat-lbl">РљСЂР°С—РЅ РґРѕСЃС‚Р°РІРєРё</span>
+        <span class="stat-lbl">Країн доставки</span>
       </div>
     </div>
   </div>
 
-  <!-- RIGHT PANEL вЂ” visual -->
+  <!-- RIGHT PANEL — visual -->
   <div class="hero-right fu d1">
-    <div class="hero-right-tag">GMP В· EU Certified В· 98% Pure</div>
+    <div class="hero-right-tag">GMP · EU Certified · 98% Pure</div>
     <div class="dna-wrap">
           <div class="dna-glow"></div>
           <div class="ptcl" style="width:5px;height:5px;top:14%;left:9%;animation-duration:4.2s;animation-delay:0s;"></div>
@@ -1934,9 +1930,9 @@
 
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      TRUST BAR
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <div class="trust">
   <div class="container">
     <div class="trust-grid">
@@ -1948,8 +1944,8 @@
           </svg>
         </div>
         <div>
-          <div class="trust-title">РЎС‚Р°РЅРґР°СЂС‚Рё СЏРєРѕСЃС‚С–</div>
-          <div class="trust-desc">GMP-СЃРµСЂС‚РёС„С–РєРѕРІР°РЅРµ РІРёСЂРѕР±РЅРёС†С‚РІРѕ РІ Р„РІСЂРѕРїС–</div>
+          <div class="trust-title">Стандарти якості</div>
+          <div class="trust-desc">GMP-сертифіковане виробництво в Європі</div>
         </div>
       </div>
       <div class="trust-item fu d1">
@@ -1962,8 +1958,8 @@
           </svg>
         </div>
         <div>
-          <div class="trust-title">РќР°СѓРєРѕРІРёР№ РїС–РґР±С–СЂ</div>
-          <div class="trust-desc">РЎРєР»Р°РґРё, РїС–РґС‚РІРµСЂРґР¶РµРЅС– РєР»С–РЅС–С‡РЅРёРјРё РґРѕСЃР»С–РґР¶РµРЅРЅСЏРјРё</div>
+          <div class="trust-title">Науковий підбір</div>
+          <div class="trust-desc">Склади, підтверджені клінічними дослідженнями</div>
         </div>
       </div>
       <div class="trust-item fu d2">
@@ -1975,41 +1971,41 @@
           </svg>
         </div>
         <div>
-          <div class="trust-title">РЁРІРёРґРєР° РґРѕСЃС‚Р°РІРєР° РїРѕ СЃРІС–С‚Сѓ</div>
-          <div class="trust-desc">Р”РёСЃРєСЂРµС‚РЅР° РІС–РґРїСЂР°РІРєР° РІ 40+ РєСЂР°С—РЅ СЃРІС–С‚Сѓ</div>
+          <div class="trust-title">Швидка доставка по світу</div>
+          <div class="trust-desc">Дискретна відправка в 40+ країн світу</div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      FEATURED PRODUCTS
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="section" id="products">
   <div class="container">
     <div class="products-hd">
       <div>
-        <div class="label">РќР°С€ Р°СЃРѕСЂС‚РёРјРµРЅС‚</div>
-        <h2 class="section-title" style="margin-bottom:0;">РџРѕРїСѓР»СЏСЂРЅС– С‚РѕРІР°СЂРё</h2>
+        <div class="label">Наш асортимент</div>
+        <h2 class="section-title" style="margin-bottom:0;">Популярні товари</h2>
       </div>
-      <a href="#categories" class="btn btn-outline">РџРµСЂРµРіР»СЏРЅСѓС‚Рё РІСЃС–</a>
+      <a href="#categories" class="btn btn-outline">Переглянути всі</a>
     </div>
     <div class="products-grid">
       <!-- Card 1 -->
       <div class="pcard fu" onclick="openProduct(1)" style="cursor:pointer;">
         <div class="pcard-img">
-          <span class="pcard-badge hot">РўРѕРї РїСЂРѕРґР°Р¶</span>
+          <span class="pcard-badge hot">Топ продаж</span>
           <img src="tovar.png" alt="BPC-157 Premium" />
         </div>
         <div class="pcard-body">
-          <div class="pcard-cat">Р’С–РґРЅРѕРІР»РµРЅРЅСЏ</div>
+          <div class="pcard-cat">Відновлення</div>
           <h3 class="pcard-name">BPC-157 Premium</h3>
-          <p class="pcard-desc">РџРµСЂРµРґРѕРІРёР№ РїРµРїС‚РёРґ РґР»СЏ РІС–РґРЅРѕРІР»РµРЅРЅСЏ С‚РєР°РЅРёРЅ С‚Р° СЂРµРіРµРЅРµСЂР°С†С–С—. Р’РёСЂРѕР±РЅРёС†С‚РІРѕ вЂ” РќС–РјРµС‡С‡РёРЅР°.</p>
+          <p class="pcard-desc">Передовий пептид для відновлення тканин та регенерації. Виробництво — Німеччина.</p>
           <div class="pcard-footer">
-            <div class="pcard-price">в‚¬89 <span>/ 5РјРі</span></div>
+            <div class="pcard-price">€89 <span>/ 5мг</span></div>
             <button class="btn-buy" onclick="event.stopPropagation();addToCart(1)">
-              Р’ РєРѕС€РёРє
+              В кошик
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
             </button>
           </div>
@@ -2021,13 +2017,13 @@
           <img src="tovar.png" alt="Epithalon 10mg" />
         </div>
         <div class="pcard-body">
-          <div class="pcard-cat">Р”РѕРІРіРѕР»С–С‚С‚СЏ</div>
-          <h3 class="pcard-name">Epithalon 10РјРі</h3>
-          <p class="pcard-desc">РџРµРїС‚РёРґ РґР»СЏ РїРѕРґРѕРІР¶РµРЅРЅСЏ С‚РµР»РѕРјРµСЂ С‚Р° РєР»С–С‚РёРЅРЅРѕРіРѕ РѕРјРѕР»РѕРґР¶РµРЅРЅСЏ. РЎРµСЂС‚РёС„С–РєРѕРІР°РЅРѕ Р„РЎ.</p>
+          <div class="pcard-cat">Довголіття</div>
+          <h3 class="pcard-name">Epithalon 10мг</h3>
+          <p class="pcard-desc">Пептид для подовження теломер та клітинного омолодження. Сертифіковано ЄС.</p>
           <div class="pcard-footer">
-            <div class="pcard-price">в‚¬124 <span>/ 10РјРі</span></div>
+            <div class="pcard-price">€124 <span>/ 10мг</span></div>
             <button class="btn-buy" onclick="event.stopPropagation();addToCart(2)">
-              Р’ РєРѕС€РёРє
+              В кошик
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
             </button>
           </div>
@@ -2036,17 +2032,17 @@
       <!-- Card 3 -->
       <div class="pcard fu d2" onclick="openProduct(3)" style="cursor:pointer;">
         <div class="pcard-img">
-          <span class="pcard-badge new">РќРѕРІРёРЅРєР°</span>
+          <span class="pcard-badge new">Новинка</span>
           <img src="tovar.png" alt="Semax 0.1%" />
         </div>
         <div class="pcard-body">
-          <div class="pcard-cat">РљРѕРіРЅС–С‚РёРІРЅРµ</div>
+          <div class="pcard-cat">Когнітивне</div>
           <h3 class="pcard-name">Semax 0.1%</h3>
-          <p class="pcard-desc">РќРµР№СЂРѕРїРµРїС‚РёРґ РґР»СЏ РїРѕРєСЂР°С‰РµРЅРЅСЏ РєРѕРіРЅС–С‚РёРІРЅРёС… С„СѓРЅРєС†С–Р№, С„РѕРєСѓСЃСѓ С‚Р° РЅРµР№СЂРѕРїСЂРѕС‚РµРєС†С–С—.</p>
+          <p class="pcard-desc">Нейропептид для покращення когнітивних функцій, фокусу та нейропротекції.</p>
           <div class="pcard-footer">
-            <div class="pcard-price">в‚¬76 <span>/ 3РјР»</span></div>
+            <div class="pcard-price">€76 <span>/ 3мл</span></div>
             <button class="btn-buy" onclick="event.stopPropagation();addToCart(3)">
-              Р’ РєРѕС€РёРє
+              В кошик
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
             </button>
           </div>
@@ -2058,13 +2054,13 @@
           <img src="tovar.png" alt="TB-500 Complex" />
         </div>
         <div class="pcard-body">
-          <div class="pcard-cat">Р—РґРѕСЂРѕРІ'СЏ</div>
+          <div class="pcard-cat">Здоров'я</div>
           <h3 class="pcard-name">TB-500 Complex</h3>
-          <p class="pcard-desc">РўС–РјРѕР·РёРЅ Р‘РµС‚Р°-4 РґР»СЏ РїСЂРёСЃРєРѕСЂРµРЅРѕРіРѕ Р·Р°РіРѕС”РЅРЅСЏ С‚Р° Р·РЅРёР¶РµРЅРЅСЏ Р·Р°РїР°Р»СЊРЅРёС… РїСЂРѕС†РµСЃС–РІ.</p>
+          <p class="pcard-desc">Тімозин Бета-4 для прискореного загоєння та зниження запальних процесів.</p>
           <div class="pcard-footer">
-            <div class="pcard-price">в‚¬108 <span>/ 5РјРі</span></div>
+            <div class="pcard-price">€108 <span>/ 5мг</span></div>
             <button class="btn-buy" onclick="event.stopPropagation();addToCart(4)">
-              Р’ РєРѕС€РёРє
+              В кошик
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
             </button>
           </div>
@@ -2074,100 +2070,100 @@
   </div>
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      HOW IT WORKS
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="section how" id="how">
   <div class="container">
-    <div class="label">РџСЂРѕС†РµСЃ</div>
-    <h2 class="section-title">РЇРє С†Рµ РїСЂР°С†СЋС”</h2>
-    <p class="section-sub">РџСЂРѕСЃС‚РёР№ С€Р»СЏС… РІС–Рґ РІРёР±РѕСЂСѓ РґРѕ СЂРµР·СѓР»СЊС‚Р°С‚Сѓ.</p>
+    <div class="label">Процес</div>
+    <h2 class="section-title">Як це працює</h2>
+    <p class="section-sub">Простий шлях від вибору до результату.</p>
     <div class="how-grid">
       <div class="how-step fu">
         <div class="how-n">01</div>
-        <div class="how-t">РћР±РµСЂС–С‚СЊ РїСЂРѕРґСѓРєС‚</div>
+        <div class="how-t">Оберіть продукт</div>
         <div class="how-hr"></div>
-        <div class="how-d">РџРµСЂРµРіР»СЏРЅСЊС‚Рµ РЅР°С€ СЂРµС‚РµР»СЊРЅРѕ РїС–РґС–Р±СЂР°РЅРёР№ Р°СЃРѕСЂС‚РёРјРµРЅС‚ РїСЂРµРјС–Р°Р»СЊРЅРёС… РїРµРїС‚РёРґС–РІ. РљРѕР¶РµРЅ РїСЂРѕРґСѓРєС‚ РїС–РґРєСЂС–РїР»РµРЅРёР№ РєР»С–РЅС–С‡РЅРёРјРё РґРѕСЃР»С–РґР¶РµРЅРЅСЏРјРё С‚Р° РґРµС‚Р°Р»СЊРЅРёРј РїСЂРѕС‚РѕРєРѕР»РѕРј Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ.</div>
+        <div class="how-d">Перегляньте наш ретельно підібраний асортимент преміальних пептидів. Кожен продукт підкріплений клінічними дослідженнями та детальним протоколом застосування.</div>
       </div>
       <div class="how-step fu d1">
         <div class="how-n">02</div>
-        <div class="how-t">РћС„РѕСЂРјС–С‚СЊ Р·Р°РјРѕРІР»РµРЅРЅСЏ</div>
+        <div class="how-t">Оформіть замовлення</div>
         <div class="how-hr"></div>
-        <div class="how-d">Р‘РµР·РїРµС‡РЅР° РѕРїР»Р°С‚Р° Р· С€РёС„СЂСѓРІР°РЅРЅСЏРј. Р—Р°РјРѕРІР»РµРЅРЅСЏ РѕР±СЂРѕР±Р»СЏС”С‚СЊСЃСЏ РІ РґРµРЅСЊ РЅР°РґС…РѕРґР¶РµРЅРЅСЏ. Р”РёСЃРєСЂРµС‚РЅРµ РїР°РєСѓРІР°РЅРЅСЏ РІС–РґРїРѕРІС–РґРЅРѕ РґРѕ СЃС‚Р°РЅРґР°СЂС‚С–РІ Р„РЎ.</div>
+        <div class="how-d">Безпечна оплата з шифруванням. Замовлення обробляється в день надходження. Дискретне пакування відповідно до стандартів ЄС.</div>
       </div>
       <div class="how-step fu d2">
         <div class="how-n">03</div>
-        <div class="how-t">Р”РѕСЃСЏРіРЅС–С‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚С–РІ</div>
+        <div class="how-t">Досягніть результатів</div>
         <div class="how-hr"></div>
-        <div class="how-d">Р”РѕС‚СЂРёРјСѓР№С‚РµСЃСЊ РїРµСЂСЃРѕРЅР°Р»СЊРЅРѕРіРѕ РїСЂРѕС‚РѕРєРѕР»Сѓ. РќР°С€Р° РєРѕРјР°РЅРґР° РїС–РґС‚СЂРёРјРєРё РґРѕРїРѕРјРѕР¶Рµ РІР°Рј РЅР° РєРѕР¶РЅРѕРјСѓ РєСЂРѕС†С– РІР°С€РѕРіРѕ С€Р»СЏС…Сѓ РґРѕ РїРѕРєСЂР°С‰РµРЅРЅСЏ Р·РґРѕСЂРѕРІ'СЏ.</div>
+        <div class="how-d">Дотримуйтесь персонального протоколу. Наша команда підтримки допоможе вам на кожному кроці вашого шляху до покращення здоров'я.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      CATEGORIES
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="section" id="categories">
   <div class="container">
-    <div class="label">РљР°С‚РµРіРѕСЂС–С—</div>
-    <h2 class="section-title">РњР°РіР°Р·РёРЅ Р·Р° РЅР°РїСЂСЏРјРєР°РјРё</h2>
+    <div class="label">Категорії</div>
+    <h2 class="section-title">Магазин за напрямками</h2>
     <div class="cats-grid">
       <div class="cat-card cat-dark fu">
         <div class="cat-geo"><svg width="110" height="110" viewBox="0 0 110 110" fill="none"><circle cx="55" cy="55" r="48" stroke="white" stroke-width=".5"/><circle cx="55" cy="55" r="28" stroke="white" stroke-width=".5"/><circle cx="55" cy="55" r="10" stroke="white" stroke-width=".5"/></svg></div>
         <div class="cat-arr"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg></div>
-        <div class="cat-lbl">01 / Р—Р°РіРѕС”РЅРЅСЏ</div>
-        <div class="cat-name">Р’С–РґРЅРѕРІР»РµРЅРЅСЏ<br>С‚Р° СЂРµРіРµРЅРµСЂР°С†С–СЏ</div>
-        <div class="cat-cnt">8 РџСЂРѕРґСѓРєС‚С–РІ</div>
+        <div class="cat-lbl">01 / Загоєння</div>
+        <div class="cat-name">Відновлення<br>та регенерація</div>
+        <div class="cat-cnt">8 Продуктів</div>
       </div>
       <div class="cat-card cat-mid fu d1">
         <div class="cat-geo"><svg width="110" height="110" viewBox="0 0 110 110" fill="none"><path d="M55 10 L100 55 L55 100 L10 55 Z" stroke="white" stroke-width=".5"/><path d="M55 26 L84 55 L55 84 L26 55 Z" stroke="white" stroke-width=".5"/></svg></div>
         <div class="cat-arr"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg></div>
-        <div class="cat-lbl">02 / Р”РѕРІРіРѕР»С–С‚С‚СЏ</div>
-        <div class="cat-name">РђРЅС‚РёРµР№РґР¶<br>С‚Р° РґРѕРІРіРѕР»С–С‚С‚СЏ</div>
-        <div class="cat-cnt">6 РџСЂРѕРґСѓРєС‚С–РІ</div>
+        <div class="cat-lbl">02 / Довголіття</div>
+        <div class="cat-name">Антиейдж<br>та довголіття</div>
+        <div class="cat-cnt">6 Продуктів</div>
       </div>
       <div class="cat-card cat-light fu d2">
         <div class="cat-geo"><svg width="110" height="110" viewBox="0 0 110 110" fill="none"><circle cx="55" cy="55" r="40" stroke="#1A1A1A" stroke-width=".5"/><circle cx="35" cy="55" r="20" stroke="#1A1A1A" stroke-width=".5"/><circle cx="75" cy="55" r="20" stroke="#1A1A1A" stroke-width=".5"/></svg></div>
         <div class="cat-arr"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="#1A1A1A" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg></div>
-        <div class="cat-lbl">03 / Р РѕР·СѓРј</div>
-        <div class="cat-name">РљРѕРіРЅС–С‚РёРІРЅРµ<br>РїРѕРєСЂР°С‰РµРЅРЅСЏ</div>
-        <div class="cat-cnt">5 РџСЂРѕРґСѓРєС‚С–РІ</div>
+        <div class="cat-lbl">03 / Розум</div>
+        <div class="cat-name">Когнітивне<br>покращення</div>
+        <div class="cat-cnt">5 Продуктів</div>
       </div>
       <div class="cat-card cat-dark fu">
         <div class="cat-geo"><svg width="100" height="100" viewBox="0 0 100 100" fill="none"><path d="M10 50 Q25 20 50 30 Q75 40 90 50 Q75 60 50 70 Q25 80 10 50Z" stroke="white" stroke-width=".5"/></svg></div>
         <div class="cat-arr"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg></div>
-        <div class="cat-lbl">04 / РџРµСЂС„РѕСЂРјР°РЅСЃ</div>
-        <div class="cat-name">Р¤С–Р·РёС‡РЅР°<br>Р°РєС‚РёРІРЅС–СЃС‚СЊ</div>
-        <div class="cat-cnt">7 РџСЂРѕРґСѓРєС‚С–РІ</div>
+        <div class="cat-lbl">04 / Перформанс</div>
+        <div class="cat-name">Фізична<br>активність</div>
+        <div class="cat-cnt">7 Продуктів</div>
       </div>
       <div class="cat-card cat-mid fu d1">
         <div class="cat-geo"><svg width="110" height="110" viewBox="0 0 110 110" fill="none"><path d="M55 10 L55 100" stroke="white" stroke-width=".5"/><path d="M10 55 L100 55" stroke="white" stroke-width=".5"/><circle cx="55" cy="55" r="44" stroke="white" stroke-width=".5"/><circle cx="55" cy="55" r="24" stroke="white" stroke-width=".5"/></svg></div>
         <div class="cat-arr"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg></div>
-        <div class="cat-lbl">05 / Р†РјСѓРЅС–С‚РµС‚</div>
-        <div class="cat-name">Р†РјСѓРЅРЅР°<br>РїС–РґС‚СЂРёРјРєР°</div>
-        <div class="cat-cnt">4 РџСЂРѕРґСѓРєС‚Рё</div>
+        <div class="cat-lbl">05 / Імунітет</div>
+        <div class="cat-name">Імунна<br>підтримка</div>
+        <div class="cat-cnt">4 Продукти</div>
       </div>
       <div class="cat-card cat-light fu d2">
         <div class="cat-geo"><svg width="110" height="110" viewBox="0 0 110 110" fill="none"><polygon points="55,10 100,40 85,90 25,90 10,40" stroke="#1A1A1A" stroke-width=".5"/><polygon points="55,24 82,46 72,78 38,78 28,46" stroke="#1A1A1A" stroke-width=".5"/></svg></div>
         <div class="cat-arr"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="#1A1A1A" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg></div>
-        <div class="cat-lbl">06 / РљСЂР°СЃР°</div>
-        <div class="cat-name">РЁРєС–СЂР°<br>С‚Р° РєСЂР°СЃР°</div>
-        <div class="cat-cnt">5 РџСЂРѕРґСѓРєС‚С–РІ</div>
+        <div class="cat-lbl">06 / Краса</div>
+        <div class="cat-name">Шкіра<br>та краса</div>
+        <div class="cat-cnt">5 Продуктів</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      TESTIMONIALS
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="section testi" id="testimonials">
   <div class="container">
     <div class="testi-hd fu">
-      <div class="label">Р’С–РґРіСѓРєРё</div>
-      <h2 class="section-title">Р©Рѕ РєР°Р¶СѓС‚СЊ РЅР°С€С– РєР»С–С”РЅС‚Рё</h2>
-      <p class="section-sub">РќР°Рј РґРѕРІС–СЂСЏСЋС‚СЊ Р»СЋР±РёС‚РµР»С– РґРѕРІРіРѕР»С–С‚С‚СЏ, СЃРїРѕСЂС‚СЃРјРµРЅРё С‚Р° С„Р°С…С–РІС†С– Р· РІРµР»РЅРµСЃСѓ РїРѕ РІСЃС–Р№ Р„РІСЂРѕРїС–.</p>
+      <div class="label">Відгуки</div>
+      <h2 class="section-title">Що кажуть наші клієнти</h2>
+      <p class="section-sub">Нам довіряють любителі довголіття, спортсмени та фахівці з велнесу по всій Європі.</p>
     </div>
     <div class="testi-grid">
       <div class="tcard fu">
@@ -2178,14 +2174,14 @@
           <svg viewBox="0 0 16 16"><path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7z"/></svg>
           <svg viewBox="0 0 16 16"><path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7z"/></svg>
         </div>
-        <p class="tcard-text">В«РЇРєС–СЃС‚СЊ вЂ” РЅР° СЂС–РІРЅС–, СЏРєРѕРіРѕ СЏ РЅС–РєРѕР»Рё СЂР°РЅС–С€Рµ РЅРµ Р·СѓСЃС‚СЂС–С‡Р°РІ. РџС–СЃР»СЏ 8 С‚РёР¶РЅС–РІ РЅР° РїСЂРѕС‚РѕРєРѕР»С– BPC-157 С‡Р°СЃ РІС–РґРЅРѕРІР»РµРЅРЅСЏ СЃРєРѕСЂРѕС‚РёРІСЃСЏ РІРґРІС–С‡С–. IncriMed СЃС‚Р°РІ РЅРµР·Р°РјС–РЅРЅРѕСЋ С‡Р°СЃС‚РёРЅРѕСЋ РјРѕРіРѕ СЂРµР¶РёРјСѓ.В»</p>
+        <p class="tcard-text">«Якість — на рівні, якого я ніколи раніше не зустрічав. Після 8 тижнів на протоколі BPC-157 час відновлення скоротився вдвічі. IncriMed став незамінною частиною мого режиму.»</p>
         <div class="tcard-author">
           <div class="author-photo">
-            <img src="https://i.pravatar.cc/96?img=12" alt="РњРёС…Р°Р№Р»Рѕ Р ." loading="lazy" />
+            <img src="https://i.pravatar.cc/96?img=12" alt="Михайло Р." loading="lazy" />
           </div>
           <div>
-            <div class="author-name">РњРёС…Р°Р№Р»Рѕ Р .</div>
-            <div class="author-role">РўСЂРµРЅРµСЂ Р· РїРµСЂС„РѕСЂРјР°РЅСЃСѓ, Р‘РµСЂР»С–РЅ</div>
+            <div class="author-name">Михайло Р.</div>
+            <div class="author-role">Тренер з перформансу, Берлін</div>
           </div>
         </div>
       </div>
@@ -2197,14 +2193,14 @@
           <svg viewBox="0 0 16 16"><path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7z"/></svg>
           <svg viewBox="0 0 16 16"><path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7z"/></svg>
         </div>
-        <p class="tcard-text">В«РЇРє РґРѕСЃР»С–РґРЅРёРє Сѓ РіР°Р»СѓР·С– РґРѕРІРіРѕР»С–С‚С‚СЏ, СЏ РґСѓР¶Рµ РїСЂРёСЃРєС–РїР»РёРІР°. Epithalon РІС–Рґ IncriMed вЂ” С„Р°СЂРјР°С†РµРІС‚РёС‡РЅР° СЏРєС–СЃС‚СЊ, С‡СѓРґРѕРІРµ РїР°РєСѓРІР°РЅРЅСЏ. Р—РІС–С‚Рё РїСЂРѕ С‡РёСЃС‚РѕС‚Сѓ РїСЂРѕР·РѕСЂС– С‚Р° РїС–РґС‚РІРµСЂРґР¶РµРЅС–.В»</p>
+        <p class="tcard-text">«Як дослідник у галузі довголіття, я дуже прискіплива. Epithalon від IncriMed — фармацевтична якість, чудове пакування. Звіти про чистоту прозорі та підтверджені.»</p>
         <div class="tcard-author">
           <div class="author-photo">
-            <img src="https://i.pravatar.cc/96?img=47" alt="РЎРѕС„С–СЏ Рљ." loading="lazy" />
+            <img src="https://i.pravatar.cc/96?img=47" alt="Софія К." loading="lazy" />
           </div>
           <div>
-            <div class="author-name">РЎРѕС„С–СЏ Рљ.</div>
-            <div class="author-role">Р”РѕСЃР»С–РґРЅРёС†СЏ, РђРјСЃС‚РµСЂРґР°Рј</div>
+            <div class="author-name">Софія К.</div>
+            <div class="author-role">Дослідниця, Амстердам</div>
           </div>
         </div>
       </div>
@@ -2216,14 +2212,14 @@
           <svg viewBox="0 0 16 16"><path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7z"/></svg>
           <svg viewBox="0 0 16 16"><path d="M8 1l1.8 3.6L14 5.3l-3 2.9.7 4.1L8 10.4l-3.7 1.9.7-4.1-3-2.9 4.2-.7z"/></svg>
         </div>
-        <p class="tcard-text">В«Р—Р°РјРѕРІРёРІ Semax РІРїРµСЂС€Рµ вЂ” РґРѕСЃС‚Р°РІРєР° С€РІРёРґРєР°, РїР°РєСѓРІР°РЅРЅСЏ РїСЂРµРјС–Р°Р»СЊРЅРµ. РљРѕРіРЅС–С‚РёРІРЅРёР№ РµС„РµРєС‚ РІС–РґС‡СѓС‚РЅРёР№ РІР¶Рµ Р· РїРµСЂС€РѕРіРѕ С‚РёР¶РЅСЏ. Р‘С–Р»СЊС€Рµ РЅРµ Р±СѓРґСѓ Р·Р°РјРѕРІР»СЏС‚Рё РІ С–РЅС€РѕРјСѓ РјС–СЃС†С–.В»</p>
+        <p class="tcard-text">«Замовив Semax вперше — доставка швидка, пакування преміальне. Когнітивний ефект відчутний вже з першого тижня. Більше не буду замовляти в іншому місці.»</p>
         <div class="tcard-author">
           <div class="author-photo">
-            <img src="https://i.pravatar.cc/96?img=33" alt="РћР»РµРєСЃР°РЅРґСЂ Р’." loading="lazy" />
+            <img src="https://i.pravatar.cc/96?img=33" alt="Олександр В." loading="lazy" />
           </div>
           <div>
-            <div class="author-name">РћР»РµРєСЃР°РЅРґСЂ Р’.</div>
-            <div class="author-role">РџС–РґРїСЂРёС”РјРµС†СЊ, Р¦СЋСЂРёС…</div>
+            <div class="author-name">Олександр В.</div>
+            <div class="author-role">Підприємець, Цюрих</div>
           </div>
         </div>
       </div>
@@ -2231,74 +2227,74 @@
   </div>
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      FAQ
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="section faq-sec" id="faq">
   <div class="container">
     <div class="faq-inner">
       <div class="faq-sticky fu">
         <div class="label">FAQ</div>
-        <h2 class="section-title">Р§Р°СЃС‚С– Р·Р°РїРёС‚Р°РЅРЅСЏ</h2>
-        <p class="section-sub" style="margin-bottom:34px;">Р’СЃРµ, С‰Рѕ РїРѕС‚СЂС–Р±РЅРѕ Р·РЅР°С‚Рё РїСЂРѕ РЅР°С€С– РїСЂРѕРґСѓРєС‚Рё С‚Р° РїСЂРѕС†РµСЃ Р·Р°РјРѕРІР»РµРЅРЅСЏ.</p>
+        <h2 class="section-title">Часті запитання</h2>
+        <p class="section-sub" style="margin-bottom:34px;">Все, що потрібно знати про наші продукти та процес замовлення.</p>
         <a href="#footer" class="btn btn-outline">
-          Р—РІ'СЏР·Р°С‚РёСЃСЏ Р· РЅР°РјРё
+          Зв'язатися з нами
           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 6.5h9M7.5 2.5l4 4-4 4"/></svg>
         </a>
       </div>
       <div class="faq-list fu d1">
         <div class="faq-item open">
           <button class="faq-q" aria-expanded="true">
-            Р§РёРј РїРµРїС‚РёРґРё IncriMed РІС–РґСЂС–Р·РЅСЏСЋС‚СЊСЃСЏ РІС–Рґ С–РЅС€РёС…?
+            Чим пептиди IncriMed відрізняються від інших?
             <span class="faq-ico"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M7 2v10M2 7h10"/></svg></span>
           </button>
           <div class="faq-a">
-            <div class="faq-a-in">Р’СЃС– РїРµРїС‚РёРґРё IncriMed СЃРёРЅС‚РµР·РѕРІР°РЅС– РЅР° GMP-СЃРµСЂС‚РёС„С–РєРѕРІР°РЅРёС… РїС–РґРїСЂРёС”РјСЃС‚РІР°С… Сѓ Р•РІСЂРѕРїС– Р· С‡РёСЃС‚РѕС‚РѕСЋ РјС–РЅС–РјСѓРј 98%. РљРѕР¶РЅР° РїР°СЂС‚С–СЏ РїСЂРѕС…РѕРґРёС‚СЊ РЅРµР·Р°Р»РµР¶РЅРµ С‚РµСЃС‚СѓРІР°РЅРЅСЏ С‚Р° РїРѕСЃС‚Р°С‡Р°С”С‚СЊСЃСЏ Р· РЎРµСЂС‚РёС„С–РєР°С‚РѕРј Р°РЅР°Р»С–Р·Сѓ. РњРё РЅРµ СЃРїС–РІРїСЂР°С†СЋС”РјРѕ Р· РІРёСЂРѕР±РЅРёРєР°РјРё Р±РµР· РїС–РґС‚РІРµСЂРґР¶РµРЅРѕРіРѕ РєРѕРЅС‚СЂРѕР»СЋ СЏРєРѕСЃС‚С–.</div>
+            <div class="faq-a-in">Всі пептиди IncriMed синтезовані на GMP-сертифікованих підприємствах у Европі з чистотою мінімум 98%. Кожна партія проходить незалежне тестування та постачається з Сертифікатом аналізу. Ми не співпрацюємо з виробниками без підтвердженого контролю якості.</div>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            РЇРє Р·Р±РµСЂС–РіР°С‚Рё РїРµРїС‚РёРґРё?
+            Як зберігати пептиди?
             <span class="faq-ico"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M7 2v10M2 7h10"/></svg></span>
           </button>
           <div class="faq-a">
-            <div class="faq-a-in">Р›С–РѕС„С–Р»С–Р·РѕРІР°РЅС– (СЃСѓС…С–) РїРµРїС‚РёРґРё Р·Р±РµСЂС–РіР°Р№С‚Рµ РІ РїСЂРѕС…РѕР»РѕРґРЅРѕРјСѓ С‚РµРјРЅРѕРјСѓ РјС–СЃС†С– РїСЂРё 2вЂ“8В°C РґР»СЏ РєРѕСЂРѕС‚РєРѕСЃС‚СЂРѕРєРѕРІРѕРіРѕ Р·Р±РµСЂС–РіР°РЅРЅСЏ Р°Р±Рѕ РїСЂРё -20В°C РЅР° С‚СЂРёРІР°Р»РёР№ С‚РµСЂРјС–РЅ. РџС–СЃР»СЏ СЂРѕР·РІРµРґРµРЅРЅСЏ Р±Р°РєС‚РµСЂС–РѕСЃС‚Р°С‚РёС‡РЅРѕСЋ РІРѕРґРѕСЋ РІРёРєРѕСЂРёСЃС‚РѕРІСѓР№С‚Рµ РїСЂРѕС‚СЏРіРѕРј 30 РґРЅС–РІ Сѓ С…РѕР»РѕРґРёР»СЊРЅРёРєСѓ. РќС–РєРѕР»Рё РЅРµ Р·Р°РјРѕСЂРѕР¶СѓР№С‚Рµ СЂРѕР·РІРµРґРµРЅС– РїРµРїС‚РёРґРё.</div>
+            <div class="faq-a-in">Ліофілізовані (сухі) пептиди зберігайте в прохолодному темному місці при 2–8°C для короткострокового зберігання або при -20°C на тривалий термін. Після розведення бактеріостатичною водою використовуйте протягом 30 днів у холодильнику. Ніколи не заморожуйте розведені пептиди.</div>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            Р§Рё Р·РґС–Р№СЃРЅСЋС”С‚Рµ РІРё РґРѕСЃС‚Р°РІРєСѓ РїРѕ РЈРєСЂР°С—РЅС– С‚Р° СЃРІС–С‚Сѓ?
+            Чи здійснюєте ви доставку по Україні та світу?
             <span class="faq-ico"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M7 2v10M2 7h10"/></svg></span>
           </button>
           <div class="faq-a">
-            <div class="faq-a-in">РўР°Рє, РјРё РґРѕСЃС‚Р°РІР»СЏС”РјРѕ РІ Р±С–Р»СЊС€ РЅС–Р¶ 40 РєСЂР°С—РЅ СЃРІС–С‚Сѓ. Р’СЃС– Р·Р°РјРѕРІР»РµРЅРЅСЏ РІС–РґРїСЂР°РІР»СЏСЋС‚СЊСЃСЏ РґРёСЃРєСЂРµС‚РЅРѕ Р±РµР· С–РґРµРЅС‚РёС„С–РєСѓСЋС‡РёС… РјС–С‚РѕРє. Р”РѕСЃС‚Р°РІРєР° РїРѕ Р„РЎ вЂ” 3вЂ“5 СЂРѕР±РѕС‡РёС… РґРЅС–РІ, РјС–Р¶РЅР°СЂРѕРґРЅР° вЂ” 7вЂ“14 РґРЅС–РІ. Р”Р»СЏ РєРѕР¶РЅРѕРіРѕ Р·Р°РјРѕРІР»РµРЅРЅСЏ РЅР°РґР°С”С‚СЊСЃСЏ С‚СЂРµРєС–РЅРі-РЅРѕРјРµСЂ.</div>
+            <div class="faq-a-in">Так, ми доставляємо в більш ніж 40 країн світу. Всі замовлення відправляються дискретно без ідентифікуючих міток. Доставка по ЄС — 3–5 робочих днів, міжнародна — 7–14 днів. Для кожного замовлення надається трекінг-номер.</div>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            РЇРєС– СЃРїРѕСЃРѕР±Рё РѕРїР»Р°С‚Рё РІРё РїСЂРёР№РјР°С”С‚Рµ?
+            Які способи оплати ви приймаєте?
             <span class="faq-ico"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M7 2v10M2 7h10"/></svg></span>
           </button>
           <div class="faq-a">
-            <div class="faq-a-in">РњРё РїСЂРёР№РјР°С”РјРѕ РѕСЃРЅРѕРІРЅС– РєСЂРµРґРёС‚РЅС– РєР°СЂС‚РєРё (Visa, Mastercard), Р±Р°РЅРєС–РІСЃСЊРєС– РїРµСЂРµРєР°Р·Рё С‚Р° РєСЂРёРїС‚РѕРІР°Р»СЋС‚Рё (Bitcoin, Ethereum). Р’СЃС– С‚СЂР°РЅР·Р°РєС†С–С— РѕР±СЂРѕР±Р»СЏСЋС‚СЊСЃСЏ С‡РµСЂРµР· Р·Р°С…РёС‰РµРЅС– РїР»Р°С‚С–Р¶РЅС– С€Р»СЋР·Рё Р· С€РёС„СЂСѓРІР°РЅРЅСЏРј РґР»СЏ Р·Р°С…РёСЃС‚Сѓ РІР°С€РёС… РѕСЃРѕР±РёСЃС‚РёС… РґР°РЅРёС….</div>
+            <div class="faq-a-in">Ми приймаємо основні кредитні картки (Visa, Mastercard), банківські перекази та криптовалюти (Bitcoin, Ethereum). Всі транзакції обробляються через захищені платіжні шлюзи з шифруванням для захисту ваших особистих даних.</div>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            Р§Рё РјРѕР¶Сѓ СЏ РѕС‚СЂРёРјР°С‚Рё РЎРµСЂС‚РёС„С–РєР°С‚ Р°РЅР°Р»С–Р·Сѓ?
+            Чи можу я отримати Сертифікат аналізу?
             <span class="faq-ico"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M7 2v10M2 7h10"/></svg></span>
           </button>
           <div class="faq-a">
-            <div class="faq-a-in">Р—РІС–СЃРЅРѕ. Р”Рѕ РєРѕР¶РЅРѕРіРѕ РїСЂРѕРґСѓРєС‚Сѓ РЅР° РЅР°С€РѕРјСѓ СЃР°Р№С‚С– РґРѕРґР°С”С‚СЊСЃСЏ РЎРµСЂС‚РёС„С–РєР°С‚ Р°РЅР°Р»С–Р·Сѓ (CoA) РІС–Рґ РЅРµР·Р°Р»РµР¶РЅРёС… Р»Р°Р±РѕСЂР°С‚РѕСЂС–Р№. Р’Рё Р·РЅР°Р№РґРµС‚Рµ Р№РѕРіРѕ РЅР° СЃС‚РѕСЂС–РЅС†С– РєРѕР¶РЅРѕРіРѕ РїСЂРѕРґСѓРєС‚Сѓ Р°Р±Рѕ РјРѕР¶РµС‚Рµ Р·Р°РїСЂРѕСЃРёС‚Рё Сѓ РЅР°С€С–Р№ СЃР»СѓР¶Р±С– РїС–РґС‚СЂРёРјРєРё. РџСЂРѕР·РѕСЂС–СЃС‚СЊ вЂ” РѕСЃРЅРѕРІР° РЅР°С€РѕРіРѕ Р±СЂРµРЅРґСѓ.</div>
+            <div class="faq-a-in">Звісно. До кожного продукту на нашому сайті додається Сертифікат аналізу (CoA) від незалежних лабораторій. Ви знайдете його на сторінці кожного продукту або можете запросити у нашій службі підтримки. Прозорість — основа нашого бренду.</div>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            Р§Рё РЅР°РґР°С”С‚Рµ РІРё РєРѕРЅСЃСѓР»СЊС‚Р°С†С–СЋ Р· РїСЂРѕС‚РѕРєРѕР»Сѓ?
+            Чи надаєте ви консультацію з протоколу?
             <span class="faq-ico"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M7 2v10M2 7h10"/></svg></span>
           </button>
           <div class="faq-a">
-            <div class="faq-a-in">Р”Рѕ РєРѕР¶РЅРѕРіРѕ РїСЂРѕРґСѓРєС‚Сѓ РјРё РЅР°РґР°С”РјРѕ РґРµС‚Р°Р»СЊРЅС– С–РЅСЃС‚СЂСѓРєС†С–С— С–Р· Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ С‚Р° РѕРіР»СЏРґРё РґРѕСЃР»С–РґР¶РµРЅСЊ. Р”Р»СЏ РїРµСЂСЃРѕРЅР°Р»С–Р·РѕРІР°РЅРѕРіРѕ РїСЂРѕС‚РѕРєРѕР»Сѓ СЂР°РґРёРјРѕ Р·РІРµСЂРЅСѓС‚РёСЃСЊ РґРѕ РєРІР°Р»С–С„С–РєРѕРІР°РЅРѕРіРѕ Р»С–РєР°СЂСЏ. Р—Р° Р±Р°Р¶Р°РЅРЅСЏРј РЅР°С€Р° РєРѕРјР°РЅРґР° РјРѕР¶Рµ РїРѕСЂРµРєРѕРјРµРЅРґСѓРІР°С‚Рё С„Р°С…С–РІС†С–РІ Сѓ РІР°С€РѕРјСѓ СЂРµРіС–РѕРЅС–.</div>
+            <div class="faq-a-in">До кожного продукту ми надаємо детальні інструкції із застосування та огляди досліджень. Для персоналізованого протоколу радимо звернутись до кваліфікованого лікаря. За бажанням наша команда може порекомендувати фахівців у вашому регіоні.</div>
           </div>
         </div>
       </div>
@@ -2306,57 +2302,57 @@
   </div>
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      CTA
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <section class="cta-sec">
   <div class="cta-orb cta-orb-1"></div>
   <div class="cta-orb cta-orb-2"></div>
   <div class="container">
     <div class="cta-inner fu">
-      <div class="cta-lbl">РџРѕС‡РЅС–С‚СЊ СЃРІС–Р№ С€Р»СЏС…</div>
-      <h2 class="cta-title">Р†РЅРІРµСЃС‚СѓР№С‚Рµ Сѓ СЃРІРѕС”<br><em>РјР°Р№Р±СѓС‚РЅС” РЇ</em></h2>
-      <p class="cta-sub">РџСЂРµРјС–Р°Р»СЊРЅС– РїРµРїС‚РёРґРё РґР»СЏ С‚РёС…, С…С‚Рѕ СЃРµСЂР№РѕР·РЅРѕ СЃС‚Р°РІРёС‚СЊСЃСЏ РґРѕ СЃРІРѕРіРѕ РґРѕРІРіРѕР»С–С‚С‚СЏ. РќР°СѓРєРѕРІРѕ РѕР±Т‘СЂСѓРЅС‚РѕРІР°РЅРѕ, С”РІСЂРѕСЃС‚Р°РЅРґР°СЂС‚, РґРѕСЃС‚Р°РІРєР° РґРѕ РІР°С€РёС… РґРІРµСЂРµР№.</p>
+      <div class="cta-lbl">Почніть свій шлях</div>
+      <h2 class="cta-title">Інвестуйте у своє<br><em>майбутнє Я</em></h2>
+      <p class="cta-sub">Преміальні пептиди для тих, хто серйозно ставиться до свого довголіття. Науково обґрунтовано, євростандарт, доставка до ваших дверей.</p>
       <div class="cta-btns">
         <a href="#products" class="btn btn-white">
-          РљСѓРїРёС‚Рё Р·Р°СЂР°Р·
+          Купити зараз
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M8 3l4 4-4 4"/></svg>
         </a>
-        <a href="#faq" class="btn btn-ghost">Р”С–Р·РЅР°С‚РёСЃСЏ Р±С–Р»СЊС€Рµ</a>
+        <a href="#faq" class="btn btn-ghost">Дізнатися більше</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      PRODUCT PAGE OVERLAY
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <div class="prod-overlay" id="prodOverlay">
   <!-- Sticky top bar -->
   <div class="prod-topbar">
     <button class="prod-back" id="prodBack" onclick="closeProduct()">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
-      РќР°Р·Р°Рґ
+      Назад
     </button>
     <nav class="prod-crumb" id="prodCrumb">
-      <a href="#">Р“РѕР»РѕРІРЅР°</a>
-      <span class="prod-crumb-sep">вЂє</span>
-      <a href="#">РљР°С‚Р°Р»РѕРі</a>
-      <span class="prod-crumb-sep">вЂє</span>
-      <span class="prod-crumb-cur" id="prodCrumbName">РўРѕРІР°СЂ</span>
+      <a href="#">Головна</a>
+      <span class="prod-crumb-sep">›</span>
+      <a href="#">Каталог</a>
+      <span class="prod-crumb-sep">›</span>
+      <span class="prod-crumb-cur" id="prodCrumbName">Товар</span>
     </nav>
   </div>
 
   <!-- Body -->
   <div class="prod-body">
 
-    <!-- в”Ђв”Ђ 2-col main grid в”Ђв”Ђ -->
+    <!-- ── 2-col main grid ── -->
     <div class="prod-grid">
 
       <!-- Gallery -->
       <div class="prod-gallery">
         <div class="prod-gallery-main" id="prodGalleryMain">
-          <div class="prod-gallery-badge" id="prodGalleryBadge">РўРѕРї РїСЂРѕРґР°Р¶</div>
+          <div class="prod-gallery-badge" id="prodGalleryBadge">Топ продаж</div>
           <img id="prodMainImg" src="tovar.png" alt="" />
         </div>
         <div class="prod-thumbs" id="prodThumbs">
@@ -2374,8 +2370,8 @@
 
       <!-- Info panel -->
       <div class="prod-info">
-        <div class="prod-cat-tag" id="prodCatTag">РљР°С‚РµРіРѕСЂС–СЏ</div>
-        <h1 class="prod-name-h" id="prodNameH">РќР°Р·РІР° С‚РѕРІР°СЂСѓ</h1>
+        <div class="prod-cat-tag" id="prodCatTag">Категорія</div>
+        <h1 class="prod-name-h" id="prodNameH">Назва товару</h1>
 
         <div class="prod-rating-row">
           <div class="prod-stars">
@@ -2386,42 +2382,42 @@
             <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           </div>
           <span class="prod-rating-val">4.9</span>
-          <span class="prod-rating-cnt">(47 РІС–РґРіСѓРєС–РІ)</span>
+          <span class="prod-rating-cnt">(47 відгуків)</span>
         </div>
 
         <div class="prod-avail">
           <span class="prod-avail-dot"></span>
-          Р’ РЅР°СЏРІРЅРѕСЃС‚С– В· Р’С–РґРїСЂР°РІРєР° СЃСЊРѕРіРѕРґРЅС–
+          В наявності · Відправка сьогодні
         </div>
 
         <div class="prod-phone-row">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.13 19.79 19.79 0 01.22 4 2 2 0 012.18 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          <span>РљРѕРЅСЃСѓР»СЊС‚Р°С†С–СЏ:</span>
+          <span>Консультація:</span>
           <a class="prod-phone-num" href="tel:+380991234567">+38 (099) 123-45-67</a>
         </div>
 
         <div class="prod-unit-row">
-          <div class="prod-unit-lbl">Р”РѕР·СѓРІР°РЅРЅСЏ / РћР±'С”Рј</div>
-          <span class="prod-unit-pill" id="prodUnitPill">5РјРі</span>
+          <div class="prod-unit-lbl">Дозування / Об'єм</div>
+          <span class="prod-unit-pill" id="prodUnitPill">5мг</span>
         </div>
 
         <div class="prod-price-big">
-          <span class="prod-currency">в‚¬</span>
+          <span class="prod-currency">€</span>
           <span id="prodPriceNum">89</span>
-          <span class="prod-per">Р·Р° С„Р»Р°РєРѕРЅ</span>
+          <span class="prod-per">за флакон</span>
         </div>
 
         <div class="prod-actions-row">
           <div class="prod-qty-wrap">
-            <button onclick="prodChangeQty(-1)" aria-label="Р—РјРµРЅС€РёС‚Рё">в€’</button>
+            <button onclick="prodChangeQty(-1)" aria-label="Зменшити">−</button>
             <div class="prod-qty-num" id="prodQtyNum">1</div>
-            <button onclick="prodChangeQty(1)" aria-label="Р—Р±С–Р»СЊС€РёС‚Рё">+</button>
+            <button onclick="prodChangeQty(1)" aria-label="Збільшити">+</button>
           </div>
           <button class="btn-prod-cart" id="btnProdCart">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-            Р”РѕРґР°С‚Рё РґРѕ РєРѕС€РёРєР°
+            Додати до кошика
           </button>
-          <button class="btn-prod-wish" id="btnProdWish" onclick="toggleWish()" aria-label="РћР±СЂР°РЅРµ">
+          <button class="btn-prod-wish" id="btnProdWish" onclick="toggleWish()" aria-label="Обране">
             <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
           </button>
         </div>
@@ -2433,8 +2429,8 @@
               <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
             </div>
             <div>
-              <div class="prod-del-t">Р‘РµР·РєРѕС€С‚РѕРІРЅР° РґРѕСЃС‚Р°РІРєР°</div>
-              <div class="prod-del-d">РІС–Рґ в‚¬200 В· РЈРєСЂРїРѕС€С‚Р°, РќРѕРІР° РџРѕС€С‚Р°</div>
+              <div class="prod-del-t">Безкоштовна доставка</div>
+              <div class="prod-del-d">від €200 · Укрпошта, Нова Пошта</div>
             </div>
           </div>
           <div class="prod-del-item">
@@ -2442,8 +2438,8 @@
               <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             </div>
             <div>
-              <div class="prod-del-t">Р’С–РґРїСЂР°РІРєР° 1вЂ“2 РґРЅС–</div>
-              <div class="prod-del-d">Р—Р°РјРѕРІР»РµРЅРЅСЏ РґРѕ 14:00 вЂ” РІС–РґРїСЂР°РІРєР° СЃСЊРѕРіРѕРґРЅС–</div>
+              <div class="prod-del-t">Відправка 1–2 дні</div>
+              <div class="prod-del-d">Замовлення до 14:00 — відправка сьогодні</div>
             </div>
           </div>
           <div class="prod-del-item">
@@ -2451,8 +2447,8 @@
               <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div>
-              <div class="prod-del-t">GMP-СЃРµСЂС‚РёС„С–РєР°С‚</div>
-              <div class="prod-del-d">РџС–РґС‚РІРµСЂРґР¶РµРЅР° С‡РёСЃС‚РѕС‚Р° 98%+</div>
+              <div class="prod-del-t">GMP-сертифікат</div>
+              <div class="prod-del-d">Підтверджена чистота 98%+</div>
             </div>
           </div>
           <div class="prod-del-item">
@@ -2460,8 +2456,8 @@
               <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
             </div>
             <div>
-              <div class="prod-del-t">РћРїР»Р°С‚Р° РїСЂРё РѕС‚СЂРёРјР°РЅРЅС–</div>
-              <div class="prod-del-d">РђР±Рѕ РєР°СЂС‚РѕСЋ РѕРЅР»Р°Р№РЅ В· Visa / MC</div>
+              <div class="prod-del-t">Оплата при отриманні</div>
+              <div class="prod-del-d">Або картою онлайн · Visa / MC</div>
             </div>
           </div>
         </div>
@@ -2470,11 +2466,11 @@
         <div class="prod-trust">
           <div class="prod-trust-it">
             <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            РћСЂРёРіС–РЅР°Р»
+            Оригінал
           </div>
           <div class="prod-trust-it">
             <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
-            GMP-РєР»Р°СЃ
+            GMP-клас
           </div>
           <div class="prod-trust-it">
             <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
@@ -2482,37 +2478,37 @@
           </div>
           <div class="prod-trust-it">
             <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
-            14 РґРЅС–РІ РїРѕРІРµСЂРЅРµРЅРЅСЏ
+            14 днів повернення
           </div>
         </div>
       </div>
     </div>
 
-    <!-- в”Ђв”Ђ Description в”Ђв”Ђ -->
+    <!-- ── Description ── -->
     <div class="prod-section">
       <div class="prod-section-hd">
-        <h2 class="prod-section-title">РћРїРёСЃ С‚Р° Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ</h2>
+        <h2 class="prod-section-title">Опис та застосування</h2>
       </div>
       <div class="prod-desc" id="prodDesc">
         <!-- Filled by JS -->
       </div>
     </div>
 
-    <!-- в”Ђв”Ђ Characteristics в”Ђв”Ђ -->
+    <!-- ── Characteristics ── -->
     <div class="prod-section">
       <div class="prod-section-hd">
-        <h2 class="prod-section-title">РҐР°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё</h2>
+        <h2 class="prod-section-title">Характеристики</h2>
       </div>
       <div class="prod-chars-wrap" id="prodChars">
         <!-- Filled by JS -->
       </div>
     </div>
 
-    <!-- в”Ђв”Ђ Reviews в”Ђв”Ђ -->
+    <!-- ── Reviews ── -->
     <div class="prod-section">
       <div class="prod-section-hd">
-        <h2 class="prod-section-title">Р’С–РґРіСѓРєРё</h2>
-        <button class="btn btn-primary" style="padding:10px 24px;font-size:13px;">Р—Р°Р»РёС€РёС‚Рё РІС–РґРіСѓРє</button>
+        <h2 class="prod-section-title">Відгуки</h2>
+        <button class="btn btn-primary" style="padding:10px 24px;font-size:13px;">Залишити відгук</button>
       </div>
       <div class="prod-reviews-row">
         <div class="prod-reviews-left">
@@ -2525,20 +2521,20 @@
               <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
               <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             </div>
-            <div class="prod-reviews-cnt">РќР° РѕСЃРЅРѕРІС– 47 РІС–РґРіСѓРєС–РІ</div>
+            <div class="prod-reviews-cnt">На основі 47 відгуків</div>
           </div>
         </div>
       </div>
       <div class="prod-empty-reviews">
-        <p>Р‘СѓРґСЊС‚Рµ РїРµСЂС€РёРј, С…С‚Рѕ Р·Р°Р»РёС€РёС‚СЊ РІС–РґРіСѓРє РїСЂРѕ С†РµР№ С‚РѕРІР°СЂ.<br>Р’Р°С€Р° РґСѓРјРєР° РґРѕРїРѕРјР°РіР°С” С–РЅС€РёРј РїРѕРєСѓРїС†СЏРј Р·СЂРѕР±РёС‚Рё РїСЂР°РІРёР»СЊРЅРёР№ РІРёР±С–СЂ.</p>
-        <button class="btn btn-primary" style="font-size:13px;">РќР°РїРёСЃР°С‚Рё РІС–РґРіСѓРє</button>
+        <p>Будьте першим, хто залишить відгук про цей товар.<br>Ваша думка допомагає іншим покупцям зробити правильний вибір.</p>
+        <button class="btn btn-primary" style="font-size:13px;">Написати відгук</button>
       </div>
     </div>
 
-    <!-- в”Ђв”Ђ Related products в”Ђв”Ђ -->
+    <!-- ── Related products ── -->
     <div class="prod-section">
       <div class="prod-section-hd">
-        <h2 class="prod-section-title">РЎС…РѕР¶С– С‚РѕРІР°СЂРё</h2>
+        <h2 class="prod-section-title">Схожі товари</h2>
       </div>
       <div class="prod-related-grid" id="prodRelated">
         <!-- Filled by JS -->
@@ -2548,9 +2544,9 @@
   </div><!-- /prod-body -->
 </div><!-- /prod-overlay -->
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      CART DRAWER
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <div class="cart-overlay" id="cartOverlay"></div>
 <div class="cart-drawer" id="cartDrawer">
   <div class="cart-hd">
@@ -2558,9 +2554,9 @@
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent2)" stroke-width="1.6" stroke-linecap="round">
         <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
       </svg>
-      <h3 class="cart-title">РљРѕС€РёРє</h3>
+      <h3 class="cart-title">Кошик</h3>
     </div>
-    <button class="cart-close-btn-x" id="cartClose" aria-label="Р—Р°РєСЂРёС‚Рё РєРѕС€РёРє">
+    <button class="cart-close-btn-x" id="cartClose" aria-label="Закрити кошик">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
         <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
       </svg>
@@ -2575,26 +2571,26 @@
         <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
       </svg>
     </div>
-    <p>РљРѕС€РёРє РїРѕСЂРѕР¶РЅС–Р№.<br>РћР±РµСЂС–С‚СЊ С‚РѕРІР°СЂРё Р·С–&nbsp;СЃРїРёСЃРєСѓ</p>
-    <a href="#products" class="btn btn-accent cart-to-products" style="font-size:13px;padding:11px 22px;">РћР±СЂР°С‚Рё С‚РѕРІР°СЂРё</a>
+    <p>Кошик порожній.<br>Оберіть товари зі&nbsp;списку</p>
+    <a href="#products" class="btn btn-accent cart-to-products" style="font-size:13px;padding:11px 22px;">Обрати товари</a>
   </div>
 
   <div class="cart-ft" id="cartFt">
     <div class="cart-total">
-      <span class="cart-total-lbl">Р—Р°РіР°Р»СЊРЅР° СЃСѓРјР°</span>
-      <span class="cart-total-price" id="cartTotal">в‚¬0</span>
+      <span class="cart-total-lbl">Загальна сума</span>
+      <span class="cart-total-price" id="cartTotal">€0</span>
     </div>
     <button class="btn-checkout">
-      РћС„РѕСЂРјРёС‚Рё Р·Р°РјРѕРІР»РµРЅРЅСЏ
+      Оформити замовлення
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M2 7h10M8 3l4 4-4 4"/></svg>
     </button>
-    <button class="cart-continue-btn" id="cartContinue">в†ђ РџСЂРѕРґРѕРІР¶РёС‚Рё РїРѕРєСѓРїРєРё</button>
+    <button class="cart-continue-btn" id="cartContinue">← Продовжити покупки</button>
   </div>
 </div>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
-     FOOTER вЂ” full width like header
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+<!-- ════════════════════════════
+     FOOTER — full width like header
+════════════════════════════ -->
 <footer class="footer" id="footer">
   <div class="footer-inner">
     <div class="footer-grid">
@@ -2602,47 +2598,47 @@
         <div class="foot-logo">
           <img src="logo.png" alt="IncriMed" />
         </div>
-        <p class="foot-brand-desc">РџСЂРµРјС–Р°Р»СЊРЅС– С”РІСЂРѕРїРµР№СЃСЊРєС– РїРµРїС‚РёРґРё РґР»СЏ РґРѕРІРіРѕР»С–С‚С‚СЏ, РІС–РґРЅРѕРІР»РµРЅРЅСЏ С‚Р° РјР°РєСЃРёРјР°Р»СЊРЅРѕС— РїСЂРѕРґСѓРєС‚РёРІРЅРѕСЃС‚С–. GMP-СЃРµСЂС‚РёС„С–РєРѕРІР°РЅР° СЏРєС–СЃС‚СЊ, РґРѕСЃС‚Р°РІРєР° РїРѕ РІСЃСЊРѕРјСѓ СЃРІС–С‚Сѓ.</p>
+        <p class="foot-brand-desc">Преміальні європейські пептиди для довголіття, відновлення та максимальної продуктивності. GMP-сертифікована якість, доставка по всьому світу.</p>
       </div>
       <div class="foot-col">
-        <div class="foot-h">РџСЂРѕРґСѓРєС‚Рё</div>
-        <a href="#">РџРµРїС‚РёРґРё РІС–РґРЅРѕРІР»РµРЅРЅСЏ</a>
-        <a href="#">РђРЅС‚РёРµР№РґР¶</a>
-        <a href="#">РљРѕРіРЅС–С‚РёРІРЅРµ</a>
-        <a href="#">Р†РјСѓРЅРЅР° РїС–РґС‚СЂРёРјРєР°</a>
-        <a href="#">РљСЂР°СЃР° С‚Р° С€РєС–СЂР°</a>
+        <div class="foot-h">Продукти</div>
+        <a href="#">Пептиди відновлення</a>
+        <a href="#">Антиейдж</a>
+        <a href="#">Когнітивне</a>
+        <a href="#">Імунна підтримка</a>
+        <a href="#">Краса та шкіра</a>
       </div>
       <div class="foot-col">
-        <div class="foot-h">РљРѕРјРїР°РЅС–СЏ</div>
-        <a href="#">РџСЂРѕ РЅР°СЃ</a>
-        <a href="#">Р”РѕСЃР»С–РґР¶РµРЅРЅСЏ</a>
-        <a href="#">РЎС‚Р°РЅРґР°СЂС‚Рё СЏРєРѕСЃС‚С–</a>
-        <a href="#">Р‘Р»РѕРі</a>
-        <a href="#">РџР°СЂС‚РЅРµСЂСЃСЊРєР° РїСЂРѕРіСЂР°РјР°</a>
+        <div class="foot-h">Компанія</div>
+        <a href="#">Про нас</a>
+        <a href="#">Дослідження</a>
+        <a href="#">Стандарти якості</a>
+        <a href="#">Блог</a>
+        <a href="#">Партнерська програма</a>
       </div>
       <div class="foot-col">
-        <div class="foot-h">РџС–РґС‚СЂРёРјРєР°</div>
-        <a href="#">РљРѕРЅС‚Р°РєС‚Рё</a>
-        <a href="#">РЈРјРѕРІРё РґРѕСЃС‚Р°РІРєРё</a>
-        <a href="#">РџРѕРІРµСЂРЅРµРЅРЅСЏ</a>
-        <a href="#">РџРёС‚Р°РЅРЅСЏ С‚Р° РІС–РґРїРѕРІС–РґС–</a>
-        <a href="#">Р’С–РґСЃС‚РµР¶РµРЅРЅСЏ Р·Р°РјРѕРІР»РµРЅРЅСЏ</a>
+        <div class="foot-h">Підтримка</div>
+        <a href="#">Контакти</a>
+        <a href="#">Умови доставки</a>
+        <a href="#">Повернення</a>
+        <a href="#">Питання та відповіді</a>
+        <a href="#">Відстеження замовлення</a>
       </div>
     </div>
     <div class="foot-bottom">
-      <div class="foot-copy">В© 2024 IncriMed. Р’СЃС– РїСЂР°РІР° Р·Р°С…РёС‰РµРЅРѕ.</div>
+      <div class="foot-copy">© 2024 IncriMed. Всі права захищено.</div>
       <div class="foot-legal">
-        <a href="#">РџРѕР»С–С‚РёРєР° РєРѕРЅС„С–РґРµРЅС†С–Р№РЅРѕСЃС‚С–</a>
-        <a href="#">РЈРјРѕРІРё РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ</a>
+        <a href="#">Політика конфіденційності</a>
+        <a href="#">Умови використання</a>
         <a href="#">Cookie</a>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
+<!-- ════════════════════════════
      JS
-в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ -->
+════════════════════════════ -->
 <script>
   // Header scroll
   const hdr = document.getElementById('header');
@@ -2702,179 +2698,179 @@
   }, { threshold: 0.38 });
   sections.forEach(s => navIO.observe(s));
 
-  // в”Ђв”Ђв”Ђ PRODUCTS DATA в”Ђв”Ђв”Ђ
+  // ─── PRODUCTS DATA ───
   const PRODUCTS = [
     {
-      id: 1, name: 'BPC-157 Premium', cat: 'Р’С–РґРЅРѕРІР»РµРЅРЅСЏ', price: 89, unit: '5РјРі', img: 'tovar.png', badge: 'РўРѕРї РїСЂРѕРґР°Р¶', badgeType: 'hot',
+      id: 1, name: 'BPC-157 Premium', cat: 'Відновлення', price: 89, unit: '5мг', img: 'tovar.png', badge: 'Топ продаж', badgeType: 'hot',
       desc: `
-        <h3>РњРµС…Р°РЅС–Р·Рј РґС–С—</h3>
-        <p>BPC-157 (Body Protection Compound-157) вЂ” С†Рµ СЃРёРЅС‚РµС‚РёС‡РЅРёР№ РїРµРЅС‚Р°РґРµРєР°РїРµРїС‚РёРґ, РїРѕС…С–РґРЅРёР№ РІС–Рґ Р·Р°С…РёСЃРЅРѕРіРѕ Р±С–Р»РєР° С€Р»СѓРЅРєР°. Р’С–РЅ РґРµРјРѕРЅСЃС‚СЂСѓС” РІРёРЅСЏС‚РєРѕРІС– СЂРµРіРµРЅРµСЂР°С‚РёРІРЅС– РІР»Р°СЃС‚РёРІРѕСЃС‚С–, СЃС‚РёРјСѓР»СЋСЋС‡Рё Р°РЅРіС–РѕРіРµРЅРµР· С‚Р° СЃРёРЅС‚РµР· РєРѕР»Р°РіРµРЅСѓ.</p>
-        <p>РџРµРїС‚РёРґ РІР·Р°С”РјРѕРґС–С” Р· СЂРµС†РµРїС‚РѕСЂР°РјРё С„Р°РєС‚РѕСЂР° СЂРѕСЃС‚Сѓ, Р°РєС‚РёРІСѓС” РјРµС…Р°РЅС–Р·РјРё СЂРµРїР°СЂР°С†С–С— С‚РєР°РЅРёРЅ С– С‡РёРЅРёС‚СЊ СЃРёСЃС‚РµРјРЅСѓ РїСЂРѕС‚РёР·Р°РїР°Р»СЊРЅСѓ РґС–СЋ.</p>
-        <h3>РџРѕРєР°Р·Р°РЅРЅСЏ РґРѕ Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ</h3>
+        <h3>Механізм дії</h3>
+        <p>BPC-157 (Body Protection Compound-157) — це синтетичний пентадекапептид, похідний від захисного білка шлунка. Він демонструє виняткові регенеративні властивості, стимулюючи ангіогенез та синтез колагену.</p>
+        <p>Пептид взаємодіє з рецепторами фактора росту, активує механізми репарації тканин і чинить системну протизапальну дію.</p>
+        <h3>Показання до застосування</h3>
         <ul>
-          <li>РџСЂРёСЃРєРѕСЂРµРЅРЅСЏ Р·Р°РіРѕС”РЅРЅСЏ СЂР°РЅ, С‚СЂР°РІРј СЃСѓС…РѕР¶РёР»СЊ С‚Р° Рј'СЏР·С–РІ</li>
-          <li>РџС–РґС‚СЂРёРјРєР° Р·РґРѕСЂРѕРІ'СЏ С€Р»СѓРЅРєРѕРІРѕ-РєРёС€РєРѕРІРѕРіРѕ С‚СЂР°РєС‚Сѓ</li>
-          <li>Р—РЅРёР¶РµРЅРЅСЏ Р·Р°РїР°Р»СЊРЅРёС… РїСЂРѕС†РµСЃС–РІ РїС–СЃР»СЏ РЅР°РІР°РЅС‚Р°Р¶РµРЅСЊ</li>
-          <li>Р’С–РґРЅРѕРІР»РµРЅРЅСЏ РїС–СЃР»СЏ РѕРїРµСЂР°С†С–Р№ С‚Р° С‚СЂР°РІРј</li>
+          <li>Прискорення загоєння ран, травм сухожиль та м'язів</li>
+          <li>Підтримка здоров'я шлунково-кишкового тракту</li>
+          <li>Зниження запальних процесів після навантажень</li>
+          <li>Відновлення після операцій та травм</li>
         </ul>
-        <h3>Р”РѕР·СѓРІР°РЅРЅСЏ</h3>
+        <h3>Дозування</h3>
         <div class="prod-table-wrap"><table class="prod-table">
-          <thead><tr><th>Р¦С–Р»СЊ</th><th>Р”РѕР·СѓРІР°РЅРЅСЏ</th><th>Р§Р°СЃС‚РѕС‚Р°</th><th>РљСѓСЂСЃ</th></tr></thead>
+          <thead><tr><th>Ціль</th><th>Дозування</th><th>Частота</th><th>Курс</th></tr></thead>
           <tbody>
-            <tr><td>Р’С–РґРЅРѕРІР»РµРЅРЅСЏ С‚РєР°РЅРёРЅ</td><td>250вЂ“500 РјРєРі</td><td>1 СЂР°Р·/РґРµРЅСЊ</td><td>4вЂ“6 С‚РёР¶РЅС–РІ</td></tr>
-            <tr><td>РЁРљРў-РїС–РґС‚СЂРёРјРєР°</td><td>250 РјРєРі</td><td>2 СЂР°Р·Рё/РґРµРЅСЊ</td><td>4 С‚РёР¶РЅС–</td></tr>
-            <tr><td>РЎРїРѕСЂС‚РёРІРЅРµ РІС–РґРЅРѕРІР»РµРЅРЅСЏ</td><td>500 РјРєРі</td><td>1 СЂР°Р·/РґРµРЅСЊ</td><td>Р”Рѕ 8 С‚РёР¶РЅС–РІ</td></tr>
+            <tr><td>Відновлення тканин</td><td>250–500 мкг</td><td>1 раз/день</td><td>4–6 тижнів</td></tr>
+            <tr><td>ШКТ-підтримка</td><td>250 мкг</td><td>2 рази/день</td><td>4 тижні</td></tr>
+            <tr><td>Спортивне відновлення</td><td>500 мкг</td><td>1 раз/день</td><td>До 8 тижнів</td></tr>
           </tbody>
         </table></div>
-        <h3>РџРµСЂРµРІР°РіРё РїСЂРѕРґСѓРєС‚Сѓ</h3>
+        <h3>Переваги продукту</h3>
         <ul>
-          <li><strong>Р’РёСЂРѕР±РЅРёС†С‚РІРѕ РќС–РјРµС‡С‡РёРЅР°</strong> вЂ” GMP-СЃРµСЂС‚РёС„С–РєРѕРІР°РЅРёР№ Р·Р°РІРѕРґ</li>
-          <li>Р§РёСЃС‚РѕС‚Р° СЃРєР»Р°РґСѓ в‰Ґ 98% (РїС–РґС‚РІРµСЂРґР¶РµРЅР° Р’Р•Р–РҐ-Р°РЅР°Р»С–Р·РѕРј)</li>
-          <li>Р›С–РѕС„С–Р»С–Р·РѕРІР°РЅРёР№ РїРѕСЂРѕС€РѕРє вЂ” РјР°РєСЃРёРјР°Р»СЊРЅР° СЃС‚Р°Р±С–Р»СЊРЅС–СЃС‚СЊ</li>
-          <li>Р‘РµР· РЅР°РїРѕРІРЅСЋРІР°С‡С–РІ С‚Р° РґРѕРјС–С€РѕРє</li>
+          <li><strong>Виробництво Німеччина</strong> — GMP-сертифікований завод</li>
+          <li>Чистота складу ≥ 98% (підтверджена ВЕЖХ-аналізом)</li>
+          <li>Ліофілізований порошок — максимальна стабільність</li>
+          <li>Без наповнювачів та домішок</li>
         </ul>`,
       chars: [
-        ['РЎРєР»Р°Рґ', 'BPC-157, Р°С†РµС‚Р°С‚'],
-        ['РњРѕР»РµРєСѓР»СЏСЂРЅР° С„РѕСЂРјСѓР»Р°', 'Cв‚†в‚‚Hв‚‰в‚€Nв‚Ѓв‚†Oв‚‚в‚‚'],
-        ['РњРѕР»РµРєСѓР»СЏСЂРЅР° РјР°СЃР°', '1419.56 Р”Р°'],
-        ['Р’РјС–СЃС‚', '5 РјРі / С„Р»Р°РєРѕРЅ'],
-        ['Р§РёСЃС‚РѕС‚Р°', 'в‰Ґ 98% (Р’Р•Р–РҐ)'],
-        ['Р¤РѕСЂРјР°', 'Р›С–РѕС„С–Р»С–Р·РѕРІР°РЅРёР№ РїРѕСЂРѕС€РѕРє'],
-        ['Р’РёСЂРѕР±РЅРёРє', 'Peptide Sciences, DE'],
-        ['Р—Р±РµСЂС–РіР°РЅРЅСЏ', '-20В°C / Сѓ С‚РµРјРЅРѕРјСѓ РјС–СЃС†С–'],
-        ['РўРµСЂРјС–РЅ РїСЂРёРґР°С‚РЅРѕСЃС‚С–', '36 РјС–СЃСЏС†С–РІ (Р·Р°РєСЂРёС‚РёР№)'],
-        ['РЎРµСЂС‚РёС„С–РєР°С†С–СЏ', 'GMP В· EU В· ISO 9001'],
+        ['Склад', 'BPC-157, ацетат'],
+        ['Молекулярна формула', 'C₆₂H₉₈N₁₆O₂₂'],
+        ['Молекулярна маса', '1419.56 Да'],
+        ['Вміст', '5 мг / флакон'],
+        ['Чистота', '≥ 98% (ВЕЖХ)'],
+        ['Форма', 'Ліофілізований порошок'],
+        ['Виробник', 'Peptide Sciences, DE'],
+        ['Зберігання', '-20°C / у темному місці'],
+        ['Термін придатності', '36 місяців (закритий)'],
+        ['Сертифікація', 'GMP · EU · ISO 9001'],
       ]
     },
     {
-      id: 2, name: 'Epithalon 10РјРі', cat: 'Р”РѕРІРіРѕР»С–С‚С‚СЏ', price: 124, unit: '10РјРі', img: 'tovar.png', badge: '',
+      id: 2, name: 'Epithalon 10мг', cat: 'Довголіття', price: 124, unit: '10мг', img: 'tovar.png', badge: '',
       desc: `
-        <h3>РњРµС…Р°РЅС–Р·Рј РґС–С—</h3>
-        <p>Epithalon (Р•РїС–С‚Р°Р»РѕРЅ) вЂ” С‚РµС‚СЂР°РїРµРїС‚РёРґ РµРїС–С„С–Р·Р°СЂРЅРѕРіРѕ РїРѕС…РѕРґР¶РµРЅРЅСЏ, СЂРѕР·СЂРѕР±Р»РµРЅРёР№ Сѓ РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂР·СЊРєРѕРјСѓ С–РЅСЃС‚РёС‚СѓС‚С– РіРµСЂРѕРЅС‚РѕР»РѕРіС–С—. РђРєС‚РёРІСѓС” С‚РµР»РѕРјРµСЂР°Р·Сѓ вЂ” С„РµСЂРјРµРЅС‚, С‰Рѕ РІС–РґРЅРѕРІР»СЋС” РґРѕРІР¶РёРЅСѓ С‚РµР»РѕРјРµСЂ С…СЂРѕРјРѕСЃРѕРј, СЃРїРѕРІС–Р»СЊРЅСЋСЋС‡Рё РєР»С–С‚РёРЅРЅРµ СЃС‚Р°СЂС–РЅРЅСЏ.</p>
-        <p>РљР»С–РЅС–С‡РЅС– РґРѕСЃР»С–РґР¶РµРЅРЅСЏ РїРѕРєР°Р·Р°Р»Рё РґРѕСЃС‚РѕРІС–СЂРЅРµ РїРѕРґРѕРІР¶РµРЅРЅСЏ С‚РµР»РѕРјРµСЂ Сѓ Р»СЋРґРµР№ РїС–СЃР»СЏ РєСѓСЂСЃСѓ РµРїС–С‚Р°Р»РѕРЅСѓ, Р° С‚Р°РєРѕР¶ РЅРѕСЂРјР°Р»С–Р·Р°С†С–СЋ РјРµР»Р°С‚РѕРЅС–РЅРѕРІРѕРіРѕ С†РёРєР»Сѓ.</p>
-        <h3>РџРѕРєР°Р·Р°РЅРЅСЏ РґРѕ Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ</h3>
+        <h3>Механізм дії</h3>
+        <p>Epithalon (Епіталон) — тетрапептид епіфізарного походження, розроблений у Санкт-Петербурзькому інституті геронтології. Активує теломеразу — фермент, що відновлює довжину теломер хромосом, сповільнюючи клітинне старіння.</p>
+        <p>Клінічні дослідження показали достовірне подовження теломер у людей після курсу епіталону, а також нормалізацію мелатонінового циклу.</p>
+        <h3>Показання до застосування</h3>
         <ul>
-          <li>РђРЅС‚РёРІС–РєРѕРІР° С‚РµСЂР°РїС–СЏ С‚Р° СЃРїРѕРІС–Р»СЊРЅРµРЅРЅСЏ СЃС‚Р°СЂС–РЅРЅСЏ</li>
-          <li>РџРѕРґРѕРІР¶РµРЅРЅСЏ С‚РµР»РѕРјРµСЂ С– РїС–РґС‚СЂРёРјРєР° РєР»С–С‚РёРЅРЅРѕРіРѕ Р·РґРѕСЂРѕРІ'СЏ</li>
-          <li>РќРѕСЂРјР°Р»С–Р·Р°С†С–СЏ С†РёСЂРєР°РґРЅРёС… СЂРёС‚РјС–РІ С‚Р° СЃРЅСѓ</li>
-          <li>РџС–РґС‚СЂРёРјРєР° С–РјСѓРЅРЅРѕС— С„СѓРЅРєС†С–С—</li>
-          <li>РћРЅРєРѕРїСЂРѕС„С–Р»Р°РєС‚РёРєР° (РґРѕРїРѕРјС–Р¶РЅР° С‚РµСЂР°РїС–СЏ)</li>
+          <li>Антивікова терапія та сповільнення старіння</li>
+          <li>Подовження теломер і підтримка клітинного здоров'я</li>
+          <li>Нормалізація циркадних ритмів та сну</li>
+          <li>Підтримка імунної функції</li>
+          <li>Онкопрофілактика (допоміжна терапія)</li>
         </ul>
-        <h3>Р”РѕР·СѓРІР°РЅРЅСЏ</h3>
+        <h3>Дозування</h3>
         <div class="prod-table-wrap"><table class="prod-table">
-          <thead><tr><th>Р¦С–Р»СЊ</th><th>Р”РѕР·СѓРІР°РЅРЅСЏ</th><th>Р§Р°СЃС‚РѕС‚Р°</th><th>РљСѓСЂСЃ</th></tr></thead>
+          <thead><tr><th>Ціль</th><th>Дозування</th><th>Частота</th><th>Курс</th></tr></thead>
           <tbody>
-            <tr><td>РђРЅС‚РёРІС–РєРѕРІР° С‚РµСЂР°РїС–СЏ</td><td>5вЂ“10 РјРі</td><td>1 СЂР°Р·/РґРµРЅСЊ</td><td>10вЂ“20 РґРЅС–РІ</td></tr>
-            <tr><td>РџС–РґС‚СЂРёРјСѓСЋС‡РёР№ РєСѓСЂСЃ</td><td>5 РјРі</td><td>РљРѕР¶РЅС– 3 РјС–СЃСЏС†С–</td><td>10 РґРЅС–РІ</td></tr>
+            <tr><td>Антивікова терапія</td><td>5–10 мг</td><td>1 раз/день</td><td>10–20 днів</td></tr>
+            <tr><td>Підтримуючий курс</td><td>5 мг</td><td>Кожні 3 місяці</td><td>10 днів</td></tr>
           </tbody>
         </table></div>
-        <h3>РџРµСЂРµРІР°РіРё РїСЂРѕРґСѓРєС‚Сѓ</h3>
+        <h3>Переваги продукту</h3>
         <ul>
-          <li><strong>РЎРµСЂС‚РёС„С–РєРѕРІР°РЅРѕ Р„РЎ</strong> вЂ” РїС–РґС‚РІРµСЂРґР¶РµРЅР° СЏРєС–СЃС‚СЊ</li>
-          <li>Р”РѕСЃР»С–РґР¶РµРЅРЅСЏ Р· 1980-С… вЂ” РїРѕРЅР°Рґ 40 СЂРѕРєС–РІ РєР»С–РЅС–С‡РЅРёС… РґР°РЅРёС…</li>
-          <li>РљРѕРЅС†РµРЅС‚СЂР°С†С–СЏ 10 РјРі вЂ” РѕРїС‚РёРјР°Р»СЊРЅР° РґР»СЏ С‚РµСЂР°РїРµРІС‚РёС‡РЅРѕРіРѕ РµС„РµРєС‚Сѓ</li>
-          <li>Р›С–РѕС„С–Р»С–Р·РѕРІР°РЅРёР№ С„РѕСЂРјР°С‚ вЂ” Р·Р±РµСЂС–РіР°С” Р°РєС‚РёРІРЅС–СЃС‚СЊ</li>
+          <li><strong>Сертифіковано ЄС</strong> — підтверджена якість</li>
+          <li>Дослідження з 1980-х — понад 40 років клінічних даних</li>
+          <li>Концентрація 10 мг — оптимальна для терапевтичного ефекту</li>
+          <li>Ліофілізований формат — зберігає активність</li>
         </ul>`,
       chars: [
-        ['РЎРєР»Р°Рґ', 'Epithalon (Ala-Glu-Asp-Gly)'],
-        ['РњРѕР»РµРєСѓР»СЏСЂРЅР° С„РѕСЂРјСѓР»Р°', 'Cв‚Ѓв‚„Hв‚‚в‚‚Nв‚„Oв‚‰'],
-        ['РњРѕР»РµРєСѓР»СЏСЂРЅР° РјР°СЃР°', '390.35 Р”Р°'],
-        ['Р’РјС–СЃС‚', '10 РјРі / С„Р»Р°РєРѕРЅ'],
-        ['Р§РёСЃС‚РѕС‚Р°', 'в‰Ґ 99% (Р’Р•Р–РҐ)'],
-        ['Р¤РѕСЂРјР°', 'Р›С–РѕС„С–Р»С–Р·РѕРІР°РЅРёР№ РїРѕСЂРѕС€РѕРє'],
-        ['Р’РёСЂРѕР±РЅРёРє', 'Peptide Sciences, EU'],
-        ['Р—Р±РµСЂС–РіР°РЅРЅСЏ', '-20В°C / Сѓ С‚РµРјРЅРѕРјСѓ РјС–СЃС†С–'],
-        ['РўРµСЂРјС–РЅ РїСЂРёРґР°С‚РЅРѕСЃС‚С–', '36 РјС–СЃСЏС†С–РІ'],
-        ['РЎРµСЂС‚РёС„С–РєР°С†С–СЏ', 'GMP В· EU Certified'],
+        ['Склад', 'Epithalon (Ala-Glu-Asp-Gly)'],
+        ['Молекулярна формула', 'C₁₄H₂₂N₄O₉'],
+        ['Молекулярна маса', '390.35 Да'],
+        ['Вміст', '10 мг / флакон'],
+        ['Чистота', '≥ 99% (ВЕЖХ)'],
+        ['Форма', 'Ліофілізований порошок'],
+        ['Виробник', 'Peptide Sciences, EU'],
+        ['Зберігання', '-20°C / у темному місці'],
+        ['Термін придатності', '36 місяців'],
+        ['Сертифікація', 'GMP · EU Certified'],
       ]
     },
     {
-      id: 3, name: 'Semax 0.1%', cat: 'РљРѕРіРЅС–С‚РёРІРЅРµ', price: 76, unit: '3РјР»', img: 'tovar.png', badge: 'РќРѕРІРёРЅРєР°', badgeType: 'new',
+      id: 3, name: 'Semax 0.1%', cat: 'Когнітивне', price: 76, unit: '3мл', img: 'tovar.png', badge: 'Новинка', badgeType: 'new',
       desc: `
-        <h3>РњРµС…Р°РЅС–Р·Рј РґС–С—</h3>
-        <p>Semax (РЎРµРјР°РєСЃ) вЂ” СЃРёРЅС‚РµС‚РёС‡РЅРёР№ Р°РЅР°Р»РѕРі С„СЂР°РіРјРµРЅС‚Сѓ Р°РґСЂРµРЅРѕРєРѕСЂС‚РёРєРѕС‚СЂРѕРїРЅРѕРіРѕ РіРѕСЂРјРѕРЅСѓ (РђРљРўР“). РЎС‚РёРјСѓР»СЋС” РІРёСЂРѕР±Р»РµРЅРЅСЏ РЅРµР№СЂРѕС‚СЂРѕС„С–С‡РЅРёС… С„Р°РєС‚РѕСЂС–РІ BDNF С‚Р° NGF, РїС–РґСЃРёР»СЋС” СЃРёРЅР°РїС‚РёС‡РЅСѓ РїРµСЂРµРґР°С‡Сѓ С‚Р° Р·Р°С…РёС‰Р°С” РЅРµР№СЂРѕРЅРё РІС–Рґ РµРєСЃР°Р№С‚РѕС‚РѕРєСЃРёС‡РЅРѕСЃС‚С–.</p>
-        <p>РЁРёСЂРѕРєРѕ Р·Р°СЃС‚РѕСЃРѕРІСѓС”С‚СЊСЃСЏ РІ РЅРµРІСЂРѕР»РѕРіС–С— РґР»СЏ Р»С–РєСѓРІР°РЅРЅСЏ РїРѕСЂСѓС€РµРЅСЊ РјРѕР·РєРѕРІРѕРіРѕ РєСЂРѕРІРѕРѕР±С–РіСѓ С‚Р° РєРѕРіРЅС–С‚РёРІРЅРёС… РґРµС„С–С†РёС‚С–РІ.</p>
-        <h3>РџРѕРєР°Р·Р°РЅРЅСЏ РґРѕ Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ</h3>
+        <h3>Механізм дії</h3>
+        <p>Semax (Семакс) — синтетичний аналог фрагменту адренокортикотропного гормону (АКТГ). Стимулює вироблення нейротрофічних факторів BDNF та NGF, підсилює синаптичну передачу та захищає нейрони від ексайтотоксичності.</p>
+        <p>Широко застосовується в неврології для лікування порушень мозкового кровообігу та когнітивних дефіцитів.</p>
+        <h3>Показання до застосування</h3>
         <ul>
-          <li>РџРѕРєСЂР°С‰РµРЅРЅСЏ РєРѕРЅС†РµРЅС‚СЂР°С†С–С—, РїР°Рј'СЏС‚С– С‚Р° РЅР°РІС‡Р°РЅРЅСЏ</li>
-          <li>РќРµР№СЂРѕРїСЂРѕС‚РµРєС†С–СЏ РїСЂРё СЃС‚СЂРµСЃС– С‚Р° РїРµСЂРµРІС‚РѕРјС–</li>
-          <li>Р’С–РґРЅРѕРІР»РµРЅРЅСЏ РїС–СЃР»СЏ РЅРµРІСЂРѕР»РѕРіС–С‡РЅРёС… СѓС€РєРѕРґР¶РµРЅСЊ</li>
-          <li>РџС–РґС‚СЂРёРјРєР° РїСЂРё СЃРёРЅРґСЂРѕРјС– С…СЂРѕРЅС–С‡РЅРѕС— РІС‚РѕРјРё</li>
-          <li>РџРѕРєСЂР°С‰РµРЅРЅСЏ РЅР°СЃС‚СЂРѕСЋ С‚Р° Р·РЅРёР¶РµРЅРЅСЏ С‚СЂРёРІРѕР¶РЅРѕСЃС‚С–</li>
+          <li>Покращення концентрації, пам'яті та навчання</li>
+          <li>Нейропротекція при стресі та перевтомі</li>
+          <li>Відновлення після неврологічних ушкоджень</li>
+          <li>Підтримка при синдромі хронічної втоми</li>
+          <li>Покращення настрою та зниження тривожності</li>
         </ul>
-        <h3>Р”РѕР·СѓРІР°РЅРЅСЏ</h3>
+        <h3>Дозування</h3>
         <div class="prod-table-wrap"><table class="prod-table">
-          <thead><tr><th>Р—Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ</th><th>Р”РѕР·СѓРІР°РЅРЅСЏ</th><th>РЎРїРѕСЃС–Р±</th><th>РљСѓСЂСЃ</th></tr></thead>
+          <thead><tr><th>Застосування</th><th>Дозування</th><th>Спосіб</th><th>Курс</th></tr></thead>
           <tbody>
-            <tr><td>РљРѕРіРЅС–С‚РёРІРЅРµ РїРѕРєСЂР°С‰РµРЅРЅСЏ</td><td>2вЂ“3 РєСЂР°РїР»С–/РЅС–Р·РґСЂСЏ</td><td>Р†РЅС‚СЂР°РЅР°Р·Р°Р»СЊРЅРѕ</td><td>2вЂ“4 С‚РёР¶РЅС–</td></tr>
-            <tr><td>РќРµР№СЂРѕРїСЂРѕС‚РµРєС†С–СЏ</td><td>1 РєСЂР°РїР»СЏ/РЅС–Р·РґСЂСЏ</td><td>Р†РЅС‚СЂР°РЅР°Р·Р°Р»СЊРЅРѕ</td><td>Р”Рѕ 4 С‚РёР¶РЅС–РІ</td></tr>
+            <tr><td>Когнітивне покращення</td><td>2–3 краплі/ніздря</td><td>Інтраназально</td><td>2–4 тижні</td></tr>
+            <tr><td>Нейропротекція</td><td>1 крапля/ніздря</td><td>Інтраназально</td><td>До 4 тижнів</td></tr>
           </tbody>
         </table></div>
-        <h3>РџРµСЂРµРІР°РіРё РїСЂРѕРґСѓРєС‚Сѓ</h3>
+        <h3>Переваги продукту</h3>
         <ul>
-          <li><strong>Р—СЂСѓС‡РЅР° РЅР°Р·Р°Р»СЊРЅР° С„РѕСЂРјР°</strong> вЂ” РЅРµ РїРѕС‚СЂРµР±СѓС” С–РЅ'С”РєС†С–Р№</li>
-          <li>РЁРІРёРґРєРµ РІСЃРјРѕРєС‚СѓРІР°РЅРЅСЏ С‡РµСЂРµР· СЃР»РёР·РѕРІСѓ РѕР±РѕР»РѕРЅРєСѓ</li>
-          <li>Р—Р°СЂРµС”СЃС‚СЂРѕРІР°РЅРёР№ Р»С–РєР°СЂСЃСЊРєРёР№ Р·Р°СЃС–Р± Сѓ Р РѕСЃС–С— С‚Р° РЈРєСЂР°С—РЅС–</li>
-          <li>РЎС‚Р°Р±С–Р»СЊРЅРёР№ СЂРѕР·С‡РёРЅ вЂ” 0.1% РєРѕРЅС†РµРЅС‚СЂР°С†С–СЏ</li>
+          <li><strong>Зручна назальна форма</strong> — не потребує ін'єкцій</li>
+          <li>Швидке всмоктування через слизову оболонку</li>
+          <li>Зареєстрований лікарський засіб у Росії та Україні</li>
+          <li>Стабільний розчин — 0.1% концентрація</li>
         </ul>`,
       chars: [
-        ['РЎРєР»Р°Рґ', 'Semax 0.1%, РЅР°С‚СЂС–Р№ С…Р»РѕСЂРёРґ, РІРѕРґР° РґР»СЏ С–РЅ\'С”РєС†С–Р№'],
-        ['РљРѕРЅС†РµРЅС‚СЂР°С†С–СЏ', '0.1 РјРі/РјР» (0.1%)'],
-        ['РћР±\'С”Рј С„Р»Р°РєРѕРЅСѓ', '3 РјР»'],
-        ['Р¤РѕСЂРјР°', 'РќР°Р·Р°Р»СЊРЅС– РєСЂР°РїР»С–'],
-        ['Р’РёСЂРѕР±РЅРёРє', 'Р—РђРћ В«РџРµРїС‚РѕРіРµРЅВ», RU'],
-        ['Р—Р±РµСЂС–РіР°РЅРЅСЏ', '+2вЂ¦+8В°C РїС–СЃР»СЏ РІС–РґРєСЂРёС‚С‚СЏ'],
-        ['РўРµСЂРјС–РЅ РїСЂРёРґР°С‚РЅРѕСЃС‚С–', '24 РјС–СЃСЏС†С–'],
-        ['Р РµС”СЃС‚СЂР°С†С–СЏ', 'Р›РЎ-000228 (Р Р¤)'],
-        ['РЎРµСЂС‚РёС„С–РєР°С†С–СЏ', 'GMP В· ISO 9001'],
+        ['Склад', 'Semax 0.1%, натрій хлорид, вода для ін\'єкцій'],
+        ['Концентрація', '0.1 мг/мл (0.1%)'],
+        ['Об\'єм флакону', '3 мл'],
+        ['Форма', 'Назальні краплі'],
+        ['Виробник', 'ЗАО «Пептоген», RU'],
+        ['Зберігання', '+2…+8°C після відкриття'],
+        ['Термін придатності', '24 місяці'],
+        ['Реєстрація', 'ЛС-000228 (РФ)'],
+        ['Сертифікація', 'GMP · ISO 9001'],
       ]
     },
     {
-      id: 4, name: 'TB-500 Complex', cat: "Р—РґРѕСЂРѕРІ'СЏ", price: 108, unit: '5РјРі', img: 'tovar.png', badge: '',
+      id: 4, name: 'TB-500 Complex', cat: "Здоров'я", price: 108, unit: '5мг', img: 'tovar.png', badge: '',
       desc: `
-        <h3>РњРµС…Р°РЅС–Р·Рј РґС–С—</h3>
-        <p>TB-500 вЂ” СЃРёРЅС‚РµС‚РёС‡РЅР° РІРµСЂСЃС–СЏ РўС–РјРѕР·РёРЅСѓ Р‘РµС‚Р°-4 (TОІ4), РїСЂРёСЂРѕРґРЅРѕРіРѕ РїРµРїС‚РёРґСѓ, С‰Рѕ РјС–СЃС‚РёС‚СЊСЃСЏ РїСЂР°РєС‚РёС‡РЅРѕ РІ СѓСЃС–С… РєР»С–С‚РёРЅР°С… РѕСЂРіР°РЅС–Р·РјСѓ. Р РµРіСѓР»СЋС” РїРѕР»С–РјРµСЂРёР·Р°С†С–СЋ Р°РєС‚РёРЅСѓ, С‰Рѕ РєСЂРёС‚РёС‡РЅРѕ РІР°Р¶Р»РёРІРѕ РґР»СЏ РјС–РіСЂР°С†С–С— РєР»С–С‚РёРЅ С‚Р° СЂРµРіРµРЅРµСЂР°С†С–С— С‚РєР°РЅРёРЅ.</p>
-        <p>РџС–РґРІРёС‰СѓС” РєС–Р»СЊРєС–СЃС‚СЊ СЂРµС†РµРїС‚РѕСЂС–РІ РґРѕ С„Р°РєС‚РѕСЂС–РІ СЂРѕСЃС‚Сѓ, СЃС‚РёРјСѓР»СЋС” Р°РЅРіС–РѕРіРµРЅРµР· С‚Р° РїСЂРёСЃРєРѕСЂСЋС” Р·Р°РіРѕС”РЅРЅСЏ Сѓ РІР°Р¶РєРѕРґРѕСЃС‚СѓРїРЅРёС… Р·РѕРЅР°С… (Р·РІ'СЏР·РєРё, СЃСѓС…РѕР¶РёР»Р»СЏ).</p>
-        <h3>РџРѕРєР°Р·Р°РЅРЅСЏ РґРѕ Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅСЏ</h3>
+        <h3>Механізм дії</h3>
+        <p>TB-500 — синтетична версія Тімозину Бета-4 (Tβ4), природного пептиду, що міститься практично в усіх клітинах організму. Регулює полімеризацію актину, що критично важливо для міграції клітин та регенерації тканин.</p>
+        <p>Підвищує кількість рецепторів до факторів росту, стимулює ангіогенез та прискорює загоєння у важкодоступних зонах (зв'язки, сухожилля).</p>
+        <h3>Показання до застосування</h3>
         <ul>
-          <li>РџСЂРёСЃРєРѕСЂРµРЅРЅСЏ Р·Р°РіРѕС”РЅРЅСЏ Рј'СЏР·С–РІ, Р·РІ'СЏР·РѕРє С‚Р° СЃСѓС…РѕР¶РёР»СЊ</li>
-          <li>Р—РЅРёР¶РµРЅРЅСЏ С…СЂРѕРЅС–С‡РЅРѕРіРѕ Р·Р°РїР°Р»РµРЅРЅСЏ</li>
-          <li>РџС–РґС‚СЂРёРјРєР° СЃРµСЂС†РµРІРѕ-СЃСѓРґРёРЅРЅРѕС— СЃРёСЃС‚РµРјРё</li>
-          <li>Р’С–РґРЅРѕРІР»РµРЅРЅСЏ РїС–СЃР»СЏ С…С–СЂСѓСЂРіС–С‡РЅРёС… РІС‚СЂСѓС‡Р°РЅСЊ</li>
-          <li>РџСЂРѕС„С–Р»Р°РєС‚РёРєР° СЃРїРѕСЂС‚РёРІРЅРёС… С‚СЂР°РІРј</li>
+          <li>Прискорення загоєння м'язів, зв'язок та сухожиль</li>
+          <li>Зниження хронічного запалення</li>
+          <li>Підтримка серцево-судинної системи</li>
+          <li>Відновлення після хірургічних втручань</li>
+          <li>Профілактика спортивних травм</li>
         </ul>
-        <h3>Р”РѕР·СѓРІР°РЅРЅСЏ</h3>
+        <h3>Дозування</h3>
         <div class="prod-table-wrap"><table class="prod-table">
-          <thead><tr><th>Р¤Р°Р·Р°</th><th>Р”РѕР·СѓРІР°РЅРЅСЏ</th><th>Р§Р°СЃС‚РѕС‚Р°</th><th>РўСЂРёРІР°Р»С–СЃС‚СЊ</th></tr></thead>
+          <thead><tr><th>Фаза</th><th>Дозування</th><th>Частота</th><th>Тривалість</th></tr></thead>
           <tbody>
-            <tr><td>РќР°РІР°РЅС‚Р°Р¶СѓРІР°Р»СЊРЅР°</td><td>5вЂ“7.5 РјРі</td><td>2 СЂР°Р·Рё/С‚РёР¶РґРµРЅСЊ</td><td>4вЂ“6 С‚РёР¶РЅС–РІ</td></tr>
-            <tr><td>РџС–РґС‚СЂРёРјСѓРІР°Р»СЊРЅР°</td><td>2.5вЂ“5 РјРі</td><td>1 СЂР°Р·/С‚РёР¶РґРµРЅСЊ</td><td>Р”Рѕ 6 С‚РёР¶РЅС–РІ</td></tr>
+            <tr><td>Навантажувальна</td><td>5–7.5 мг</td><td>2 рази/тиждень</td><td>4–6 тижнів</td></tr>
+            <tr><td>Підтримувальна</td><td>2.5–5 мг</td><td>1 раз/тиждень</td><td>До 6 тижнів</td></tr>
           </tbody>
         </table></div>
-        <h3>РџРµСЂРµРІР°РіРё РїСЂРѕРґСѓРєС‚Сѓ</h3>
+        <h3>Переваги продукту</h3>
         <ul>
-          <li><strong>РљРѕРјРїР»РµРєСЃРЅР° С„РѕСЂРјСѓР»Р°</strong> вЂ” TB-500 + BPC-157 СЃРёРЅРµСЂРіС–СЏ</li>
-          <li>Р’РёРЅСЏС‚РєРѕРІР° СЃС‚Р°Р±С–Р»СЊРЅС–СЃС‚СЊ Сѓ Р·Р°РјРѕСЂРѕР¶РµРЅРѕРјСѓ СЃС‚Р°РЅС–</li>
-          <li>РџС–РґС…РѕРґРёС‚СЊ РґР»СЏ РїС–РґС€РєС–СЂРЅРѕРіРѕ С‚Р° РІРЅСѓС‚СЂС–С€РЅСЊРѕРј'СЏР·РѕРІРѕРіРѕ РІРІРµРґРµРЅРЅСЏ</li>
-          <li>РћРґРЅР° С„Р»Р°РєРѕРЅ вЂ” РїРѕРІРЅРёР№ РєСѓСЂСЃ РїС–РґС‚СЂРёРјРєРё</li>
+          <li><strong>Комплексна формула</strong> — TB-500 + BPC-157 синергія</li>
+          <li>Виняткова стабільність у замороженому стані</li>
+          <li>Підходить для підшкірного та внутрішньом'язового введення</li>
+          <li>Одна флакон — повний курс підтримки</li>
         </ul>`,
       chars: [
-        ['РЎРєР»Р°Рґ', 'Thymosin Beta-4 (TB-500)'],
-        ['РњРѕР»РµРєСѓР»СЏСЂРЅР° С„РѕСЂРјСѓР»Р°', 'Cв‚‚в‚Ѓв‚‚Hв‚ѓв‚…в‚ЂNв‚…в‚†Oв‚‡в‚€S'],
-        ['РњРѕР»РµРєСѓР»СЏСЂРЅР° РјР°СЃР°', '4963.5 Р”Р°'],
-        ['Р’РјС–СЃС‚', '5 РјРі / С„Р»Р°РєРѕРЅ'],
-        ['Р§РёСЃС‚РѕС‚Р°', 'в‰Ґ 98% (Р’Р•Р–РҐ)'],
-        ['Р¤РѕСЂРјР°', 'Р›С–РѕС„С–Р»С–Р·РѕРІР°РЅРёР№ РїРѕСЂРѕС€РѕРє'],
-        ['Р’РёСЂРѕР±РЅРёРє', 'Peptide Sciences, EU'],
-        ['Р—Р±РµСЂС–РіР°РЅРЅСЏ', '-20В°C / Сѓ С‚РµРјРЅРѕРјСѓ РјС–СЃС†С–'],
-        ['РўРµСЂРјС–РЅ РїСЂРёРґР°С‚РЅРѕСЃС‚С–', '36 РјС–СЃСЏС†С–РІ'],
-        ['РЎРµСЂС‚РёС„С–РєР°С†С–СЏ', 'GMP В· EU В· ISO 9001'],
+        ['Склад', 'Thymosin Beta-4 (TB-500)'],
+        ['Молекулярна формула', 'C₂₁₂H₃₅₀N₅₆O₇₈S'],
+        ['Молекулярна маса', '4963.5 Да'],
+        ['Вміст', '5 мг / флакон'],
+        ['Чистота', '≥ 98% (ВЕЖХ)'],
+        ['Форма', 'Ліофілізований порошок'],
+        ['Виробник', 'Peptide Sciences, EU'],
+        ['Зберігання', '-20°C / у темному місці'],
+        ['Термін придатності', '36 місяців'],
+        ['Сертифікація', 'GMP · EU · ISO 9001'],
       ]
     }
   ];
   let cartItems = [];
 
-  // в”Ђв”Ђв”Ђ PRODUCT PAGE в”Ђв”Ђв”Ђ
+  // ─── PRODUCT PAGE ───
   let currentProductId = null;
   let prodQty = 1;
   let wished = false;
@@ -2937,9 +2933,9 @@
           <div class="pcard-cat">${rp.cat}</div>
           <h3 class="pcard-name">${rp.name}</h3>
           <div class="pcard-footer">
-            <div class="pcard-price">в‚¬${rp.price} <span>/ ${rp.unit}</span></div>
+            <div class="pcard-price">€${rp.price} <span>/ ${rp.unit}</span></div>
             <button class="btn-buy" onclick="event.stopPropagation();addToCart(${rp.id})">
-              Р’ РєРѕС€РёРє
+              В кошик
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
             </button>
           </div>
@@ -3030,7 +3026,7 @@
       itemsEl.style.display = 'flex';
       emptyEl.classList.remove('show');
       ftEl.classList.remove('hidden');
-      totalEl.textContent = 'в‚¬' + totalPrice;
+      totalEl.textContent = '€' + totalPrice;
 
       itemsEl.innerHTML = cartItems.map(item => `
         <div class="cart-item">
@@ -3040,15 +3036,15 @@
           <div class="cart-item-info">
             <div class="cart-item-cat">${item.cat}</div>
             <div class="cart-item-name">${item.name}</div>
-            <div class="cart-item-price">в‚¬${item.price} <span style="font-family:Inter;font-size:10px;color:var(--muted);font-weight:300;">/ ${item.unit}</span></div>
+            <div class="cart-item-price">€${item.price} <span style="font-family:Inter;font-size:10px;color:var(--muted);font-weight:300;">/ ${item.unit}</span></div>
           </div>
           <div class="cart-item-actions">
             <div class="cart-qty">
-              <button onclick="changeQty(${item.id}, -1)" aria-label="Р—РјРµРЅС€РёС‚Рё">в€’</button>
+              <button onclick="changeQty(${item.id}, -1)" aria-label="Зменшити">−</button>
               <span>${item.qty}</span>
-              <button onclick="changeQty(${item.id}, 1)" aria-label="Р—Р±С–Р»СЊС€РёС‚Рё">+</button>
+              <button onclick="changeQty(${item.id}, 1)" aria-label="Збільшити">+</button>
             </div>
-            <button class="cart-item-del" onclick="removeFromCart(${item.id})" aria-label="Р’РёРґР°Р»РёС‚Рё">
+            <button class="cart-item-del" onclick="removeFromCart(${item.id})" aria-label="Видалити">
               <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
                 <path d="M2 4h12M5 4V3a1 1 0 011-1h4a1 1 0 011 1v1M6 7v5M10 7v5M3 4l1 9h8l1-9"/>
               </svg>
@@ -3069,4 +3065,3 @@
 </script>
 </body>
 </html>
-
